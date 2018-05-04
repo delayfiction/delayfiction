@@ -1,15 +1,15 @@
 .content {
   position: fixed;
-  top: 15%;
-  left: 15%;
+  top: 25%;
+  left: 25%;
   text-align: center;
   display: inline-block;
-  width: 70%;
+  width: 50%;
 
-  @media only screen and (min-width: 1024px) {
-    top: 25%;
-    left: 25%;
-    width: 50%;
+  @media screen and (max-width: 1024px) {
+    top: 15%;
+    left: 15%;
+    width: 70%;
   }
 }
 
@@ -17,6 +17,8 @@
   font-family: 'Amiri', serif;
   text-align: center;
   font-size: 40px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 	
 .tagline {
@@ -25,6 +27,9 @@
   text-align: center;
   color: #303030;
   font-size: 24px;
+  margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 } 
    
 p {
@@ -33,6 +38,10 @@ p {
   text-align: center;
   font-size: 16px;
   color: #303030;
+}
+
+.ital {
+  font-style: italic;
 }
   
 a {
