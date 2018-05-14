@@ -6,13 +6,23 @@
     left: 15% !important;
     margin-top: 15px;
   }
-  
+
   input[type=email] {
-    width: 70%;
+    width: 70% !important;
+    display: inline-block;
   }
-  
+
   button {
-    width: 50%;
+    width: 50% !important;
+  }
+
+  #signup-modal {
+    width: 90% !important;
+    left: 5vw !important;
+  }
+
+  label {
+    display: inline-block;
   }
 }
 .content {
@@ -32,8 +42,8 @@
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
-	
-.tagline {
+
+h2 {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -42,8 +52,8 @@
   margin-bottom: 2em;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
-} 
-   
+}
+
 p {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
@@ -55,17 +65,67 @@ p {
 .ital {
   font-style: italic;
 }
-  
+
 a {
   text-decoration: none;
   color: #42b9f4;
 }
-    
+
 a:hover {
   color: #85ccf0;
 }
 
 /* mailchimp shit */
+
+.off {
+  display: none !important;
+}
+
+#signup-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: rgba(76, 76, 76, 0.8);
+}
+
+#signup-modal {
+  display: inline-block;
+  position: fixed;
+  background-color: #ffffff;
+  border: 1px solid #303030;
+  border-radius: 2px;
+  height: auto;
+  width: 60%;
+  top: 45vh;
+  left: 20vw;
+  z-index: 4;
+}
+
+.cta {
+  margin-top: 20px;
+}
+
+#closer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#closer p {
+  font-size: 24px;
+  -webkit-margin-before: 0;
+}
+
+#closer a {
+  color: #606060;
+}
+
+form {
+  margin: 20px 0 30px 0;
+}
 
 label {
   font-family: 'Hind Vadodara', sans-serif;
@@ -83,6 +143,8 @@ input[type=email] {
   font-weight: 400;
   color: #505050;
   font-size: 16px;
+  border: 1px solid #303030;
+  border-radius: 2px;
 }
 
 button {

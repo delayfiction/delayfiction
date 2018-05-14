@@ -12,7 +12,18 @@
 
   gtag('config', 'UA-118701210-1');
 </script>
+<script type="text/javascript">
+  function signupModal () {
+    document.getElementById('signup-background').classList.remove('off');
+    document.getElementById('signup-modal').classList.remove('off');
+  }
 
+function closeModal () {
+    document.getElementById('signup-background').classList.add('off');
+    document.getElementById('signup-modal').classList.add('off');
+  }
+</script>
+<!-- look yes this isn't a very good website yet. i'm working on it, okay? -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodara" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,12 +34,15 @@
 		<h2 class="tagline">craft en route</h2>
 		<hr>
 		<p>You’re in a place that is not a place—an in-between. These stories are encounters, moments of entanglement with strangers, confessions shared as two trajectories intersect. <span class="ital">Delay</span> publishes fiction that captures the strangeness of being: a shared interiority for reader and character until your glass is empty, you’ve settled your tab, and your plane is boarding.</p>
-		<p>landing august 2018. <a href="">submit</a> // <a href="">subscribe</a> // <a href="mailto:andrew@delayfiction.org">contact</a></p>
+		<p>landing august 2018. <a href="mailto:ben@delayfiction.org">submit</a> // <a href="#" onclick="signupModal()">subscribe</a> // <a href="mailto:andrew@delayfiction.org">contact</a></p>
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<div id="mc_embed_signup">
+<div class="off" id="signup-background">
+  <div class="off" id="signup-modal">
+    <div id="closer"><p><a href="#" onclick="closeModal()">X</a></p></div>
+    <h2 class="cta">read <span class="ital">Delay</span></h2>
 <form action="https://delayfiction.us18.list-manage.com/subscribe/post?u=fb140d399b1b0933409f6e0d5&amp;id=7a1c167c6c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
-	
+
 <div class="mc-field-group">
 	<label for="mce-EMAIL">email</label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -46,7 +60,8 @@
     </div>
 </form>
 </div>
+</div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-	</div> 
+	</div>
   </body>
 </html>
