@@ -2,25 +2,21 @@
 
 require 'fileutils'
 require_relative 'post.rb'
+require_relative 'issue.rb'
 
-#get all the post files
-## for each file in the src/posts directory, make a Post.new(filename)
+Dir.foreach(Dir.pwd + "/src/issues") do |y|
+  if y[-3..-1] == ".md"
+    issue = Issue.new(Dir.pwd + "/src/issues/" + y)
+    if Dir.exist?(issue.directory) == false
+      FileUtils.mkdir(issue.directory)
+    end
+    File.write(issue.directory + y, issue.html)
+  end
+end
 
 Dir.foreach(Dir.pwd + "/src/posts") do |x| 
   if x[-3..-1] == ".md" 
     post = Post.new(Dir.pwd + "/src/posts/" + x)
-    if Dir.exist?(post.issue_folder) == false
-      FileUtils.mkdir(post.issue_folder)
-    end
-    File.write(post.issue_folder + x, post.html)
+    File.write(post.issue_dir + x, post.html)
   end
 end
-
-#read their contents
-# make Post.new(filename) grab the contents of filename and store it somewhere in the Post
-
-#turn their contents into some html
-# if post = Post.new(filename), make post.content return some html
-
-#write the html to some other files
-# for all the posts we made, write post.content to files

@@ -2,12 +2,13 @@ require 'redcarpet'
 require 'yaml'
 require 'erb'
 
-class Post
+class Issue
   attr_reader :content, :data
 
   def initialize(filename)
     @_data = File.read(filename)
     @content = @_data.gsub(/\A---(.|\n)*?---/, '')
+    @_dir = filename.to_s[-11..-4]
   end
 
   def html
@@ -18,11 +19,7 @@ class Post
     @metadata ||= YAML.load(@_data)
   end
 
-  def issue
-    metadata['issue']
-  end
-
-  def issue_dir
-    Dir.pwd + "/" + issue + "/"
+  def directory
+    Dir.pwd + @_dir + "/"
   end
 end
