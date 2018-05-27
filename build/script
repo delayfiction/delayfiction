@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'fileutils'
 require_relative 'post.rb'
 
 #get all the post files
@@ -8,7 +9,10 @@ require_relative 'post.rb'
 Dir.foreach(Dir.pwd + "/src/posts") do |x| 
   if x[-3..-1] == ".md" 
     post = Post.new(Dir.pwd + "/src/posts/" + x)
-    File.write(Dir.pwd + "/" + x, post.html)
+    if Dir.exist?(post.issue_folder) == false
+      FileUtils.mkdir(post.issue_folder)
+    end
+    File.write(post.issue_folder + x, post.html)
   end
 end
 
