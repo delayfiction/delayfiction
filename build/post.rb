@@ -8,6 +8,7 @@ class Post
   def initialize(filename)
     @_data = File.read(filename)
     @content = @_data.gsub(/\A---(.|\n)*?---/, '')
+    @template = File.read(Dir.pwd + "/build/show-post.html.erb")
   end
 
   def html
@@ -22,7 +23,16 @@ class Post
     metadata['issue']
   end
 
+  def title
+    metadata['title']
+  end
+
   def issue_dir
     Dir.pwd + "/" + issue + "/"
+  end
+
+  def renderer
+    @post = self
+    ERB.new(@template).result(binding)
   end
 end
