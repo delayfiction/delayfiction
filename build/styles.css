@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1024px){
+  .content {
+    position: relative !important;
+    width: 70% !important;
+    top: 15% !important;
+    left: 15% !important;
+    margin-top: 15px;
+  }
+
+  input[type=email] {
+    width: 70% !important;
+    display: inline-block;
+  }
+
+  button {
+    width: 50% !important;
+  }
+
+  #signup-modal {
+    width: 90% !important;
+    left: 5vw !important;
+  }
+
+  label {
+    display: inline-block;
+  }
+}
+
+.content {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.flag {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.name {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 40px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+h2 {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+p {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  color: #303030;
+}
+
+.ital {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #42b9f4;
+}
+
+a:hover {
+  color: #85ccf0;
+}
+
+/* layout */
+
+.page-wrap {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav {
+  width: 100%;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  display: inline-block;
+}
+
+.item {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+/* mailchimp shit */
+
+.off {
+  display: none !important;
+}
+
+#signup-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: rgba(76, 76, 76, 0.8);
+}
+
+#signup-modal {
+  display: inline-block;
+  position: fixed;
+  background-color: #ffffff;
+  border: 1px solid #303030;
+  border-radius: 2px;
+  height: auto;
+  width: 60%;
+  top: 38vh;
+  left: 20vw;
+  z-index: 4;
+}
+
+.cta {
+  margin-top: 20px;
+}
+
+#closer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#closer p {
+  font-size: 24px;
+  -webkit-margin-before: 0;
+}
+
+#closer a {
+  color: #606060;
+}
+
+form {
+  margin: 20px 0 30px 0;
+}
+
+label {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  color: #303030;
+  font-size: 16px;
+}
+
+input[type=email] {
+  margin-left: 5px;
+  width: 50%;
+  height: auto;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #505050;
+  font-size: 16px;
+  border: 1px solid #303030;
+  border-radius: 2px;
+}
+
+button {
+  background-color: #42b9f4;
+  color: #ffffff;
+  width: 20%;
+  border: 0px solid;
+  border-radius: 2px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.buttonsays {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #85ccf0;
+}
