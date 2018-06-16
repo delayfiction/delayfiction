@@ -49,6 +49,14 @@
   -webkit-margin-after: 0em;
 }
 
+.post-title {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 24px;
+  --webkit-margin-before: 0em;
+  --webkit-margin-after: 0em;
+}
+
 h2 {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 600;
@@ -63,7 +71,6 @@ h2 {
 p {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
-  text-align: center;
   font-size: 16px;
   color: #303030;
 }
@@ -104,6 +111,38 @@ a:hover {
   display: inline-block;
   width: 24%;
   text-align: center;
+}
+
+.banner {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.author {
+  width: 47%;
+  text-align: right;
+  float: left;
+  display: inline-block;
+}
+
+.divider {
+  width: 6%;
+  text-align: center;
+  display: inline-block;
+}
+
+.tags {
+  width: 47%;
+  text-align: left;
+  float: right;
+  display: inline-block;
 }
 
 /* mailchimp shit */
