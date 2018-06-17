@@ -75,6 +75,12 @@ p {
   color: #303030;
 }
 
+.text {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  text-align: left;
+}
+
 .ital {
   font-style: italic;
 }
@@ -92,10 +98,8 @@ a:hover {
 
 .page-wrap {
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
   text-align: center;
-  display: inline-block;
 }
 
 .nav {
@@ -111,6 +115,21 @@ a:hover {
   display: inline-block;
   width: 24%;
   text-align: center;
+}
+
+.post {
+  width: 100%;
+  display: inline-block;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
 }
 
 .banner {
@@ -145,6 +164,28 @@ a:hover {
   display: inline-block;
 }
 
+.text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section-break {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.section-break hr {
+  color: #303030;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #303030;
+  padding: 20px 0;
+}
 /* mailchimp shit */
 
 .off {
