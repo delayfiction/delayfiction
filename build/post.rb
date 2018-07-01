@@ -1,6 +1,7 @@
 require 'redcarpet'
 require 'yaml'
 require 'erb'
+require 'ostruct'
 
 class Post
   attr_reader :content, :data
@@ -8,7 +9,6 @@ class Post
   def initialize(filename)
     @_data = File.read(filename)
     @content = @_data.gsub(/\A---(.|\n)*?---/, '')
-    @template = File.read(Dir.pwd + "/build/show-post.html.erb")
   end
 
   def html
@@ -31,8 +31,20 @@ class Post
     Dir.pwd + "/" + issue + "/"
   end
 
-  def renderer
+#  def post_meta
+#    OpenStruct.new({:author => metadata['author'], :title => title, :tag => metadata['tag'], :html => html})
+#  end
+
+  def author
+    metadata['author']
+  end
+
+  def tag
+    metadata['tag']
+  end
+
+  def render(template)
     @post = self
-    ERB.new(@template).result(binding)
+    ERB.new(template).result(binding)
   end
 end

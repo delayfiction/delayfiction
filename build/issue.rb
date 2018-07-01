@@ -22,4 +22,8 @@ class Issue
   def directory
     Dir.pwd + @_dir + "/"
   end
+
+  def title
+    metadata['title']
+  end
 end

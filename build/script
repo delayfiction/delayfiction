@@ -17,6 +17,7 @@ end
 Dir.foreach(Dir.pwd + "/src/posts") do |x|
   if x[-3..-1] == ".md"
     post = Post.new(Dir.pwd + "/src/posts/" + x)
-    File.write(post.issue_dir + x[0..-4] + '.html', post.renderer)
+    template = File.read(Dir.pwd + "/build/show-post.html.erb")
+    File.write(post.issue_dir + x[0..-4] + '.html', post.render(template))
   end
 end
