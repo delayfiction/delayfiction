@@ -109,18 +109,62 @@ a:hover {
   border-left: 0px solid;
   border-right: 0px solid;
   margin-top: 6px;
+  margin-bottom: 5px;
   display: inline-block;
   position: relative;
 }
 
 .nav:before {
   content: '';
-  border: 1px solid #303030;
+  border-top: 1px solid #303030;
   position: absolute;
-  bottom: -6px;
+  top: -6px;
+  left: 0px;
+  width: 100%;
 }
 
-.item {
+.nav:after {
+  content: '';
+  border-top: 1px solid #303030;
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+  width: 100%;
+}
+
+.nav .item {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+#scrolled-nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-bottom: 1px solid #303030;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.miniflag {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.miniflag .name {
+  font-size: 32px;
+}
+
+.mininav {
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+
+.mininav .item {
   display: inline-block;
   width: 24%;
   text-align: center;
