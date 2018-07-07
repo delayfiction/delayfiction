@@ -35,20 +35,6 @@
   width: 50%;
 }
 
-.flag {
-  text-align: center;
-  width: 100%;
-  margin: 20px 0 20px 0;
-}
-
-.name {
-  font-family: 'Amiri', serif;
-  text-align: center;
-  font-size: 40px;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-}
-
 .post-title {
   font-family: 'Amiri', serif;
   text-align: center;
@@ -78,6 +64,7 @@ h2 {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+
 p, li {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
@@ -112,7 +99,25 @@ a:hover {
   text-align: center;
 }
 
-.nav {
+.off#nav .flag {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+.off#nav .name {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 40px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.off#nav {
+  position: static;
+}
+
+.off#nav .nav-items {
   width: 100%;
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
@@ -124,7 +129,7 @@ a:hover {
   position: relative;
 }
 
-.nav:before {
+.off#nav .nav-items:before {
   content: '';
   border-top: 1px solid #303030;
   position: absolute;
@@ -133,7 +138,7 @@ a:hover {
   width: 100%;
 }
 
-.nav:after {
+.off#nav .nav-items:after {
   content: '';
   border-top: 1px solid #303030;
   position: absolute;
@@ -142,39 +147,56 @@ a:hover {
   width: 100%;
 }
 
-.nav .item {
-  display: inline-block;
-  width: 24%;
-  text-align: center;
+.nav-items .item:hover {
+  background-color: #f2f2f2;
 }
 
-#scrolled-nav {
+.nav-items .item p {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #42b9f4;
+}
+
+.nav-items .item:hover p {
+  color: #85ccf0;
+}
+
+.on#nav {
   width: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
-  border-bottom: 1px solid #303030;
   background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #303030;
 }
 
-.miniflag {
+.on#nav .flag {
   display: inline-block;
   float: left;
   text-align: left;
   margin-left: 20px;
 }
 
-.miniflag .name {
-  font-size: 32px;
+.on#nav .flag .name {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  font-size: 28px;
 }
 
-.mininav {
+.on#nav .tagline {
+  display: none;
+}
+
+.on#nav .nav-items {
   width: 50%;
   float: right;
   display: inline-block;
 }
 
-.mininav .item {
+.nav-items .item {
   display: inline-block;
   width: 24%;
   text-align: center;
@@ -251,10 +273,6 @@ a:hover {
   padding: 20px 0;
 }
 /* mailchimp shit */
-
-.off {
-  display: none !important;
-}
 
 #signup-background {
   position: fixed;
