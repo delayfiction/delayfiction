@@ -57,7 +57,7 @@
   --webkit-margin-after: 0em;
 }
 
-h2 {
+h2.tagline {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -68,7 +68,17 @@ h2 {
   -webkit-margin-after: 0em;
 }
 
-p {
+h2 {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #303030;
+  font-size: 18px;
+  margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+p, li {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -221,6 +231,7 @@ a:hover {
   width: 65%;
   margin: 0 auto;
   text-align: left;
+  min-height: 50vh;
 }
 
 .section-break {

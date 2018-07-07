@@ -2,7 +2,7 @@ require 'redcarpet'
 require 'yaml'
 require 'erb'
 
-class Issue
+class Static
   attr_reader :content, :data
 
   def initialize(filename)
@@ -19,19 +19,16 @@ class Issue
     @metadata ||= YAML.load(@_data)
   end
 
-  def directory
-    Dir.pwd + @_dir + "/"
-  end
-
   def title
-    metadata['title']
+    metadata['title'] || 'none'
   end
 
-  def has_title
-    metadata.has_key? 'title'
+  def author
+    metadata['author'] || 'none'
   end
 
-  def has_author
-    metadata.has_key? 'author'
+  def render(template)
+    @page = self
+    ERB.new(template).result(binding)
   end
 end

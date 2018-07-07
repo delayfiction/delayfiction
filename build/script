@@ -3,6 +3,7 @@
 require 'fileutils'
 require_relative 'post.rb'
 require_relative 'issue.rb'
+require_relative 'static.rb'
 
 Dir.foreach(Dir.pwd + "/src/issues") do |y|
   if y[-3..-1] == ".md"
@@ -19,5 +20,14 @@ Dir.foreach(Dir.pwd + "/src/posts") do |x|
     post = Post.new(Dir.pwd + "/src/posts/" + x)
     template = File.read(Dir.pwd + "/build/show-post.html.erb")
     File.write(post.issue_dir + x[0..-4] + '.html', post.render(template))
+  end
+end
+
+Dir.foreach(Dir.pwd + "/src/static") do |z|
+  if z[-3..-1] == ".md"
+    static = Static.new(Dir.pwd + "/src/static/" + z)
+    template = File.read(Dir.pwd + "/build/show-page.html.erb")
+    File.write(Dir.pwd + "/" + z[0..-4] + '.html', static.render(template))
+    puts static.metadata
   end
 end

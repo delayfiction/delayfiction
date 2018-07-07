@@ -1,0 +1,7 @@
+Script started on Sat Jun  2 14:00:43 2018
+nvm is not compatible with the npm config "prefix" option: currently set to "/Users/andrewcrimer/.npm-global"
+Run `nvm use --delete-prefix v8.9.4 --silent` to unset it.
+bash-3.2$ cd[K[K:[Kexit
+exit
+
+Script done on Sat Jun  2 14:00:50 2018

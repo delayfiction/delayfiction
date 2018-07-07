@@ -2,8 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title><%= title %> || delay fiction</title>
-    <link rel="stylesheet" type="text/css" href="../build/styles.css">
+    <% if title != 'none' %>
+      <title><%= title %> || delay fiction</title>
+    <% else %>
+      <title>delay fiction</title>
+    <% end %>
+    <% if author != 'none' %>
+      <link rel="stylesheet" type="text/css" href="../build/styles.css">
+    <% else %>
+      <link rel="stylesheet" type="text/css" href="./build/styles.css">
+    <% end %>
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -27,7 +35,7 @@
       </div>
       <div class="mininav">
         <div class="item">
-          <p><a href="/issues">issue</a></p>
+          <p><a href="/issues.html">issue</a></p>
         </div>
         <div class="item">
           <p><a href="/subscribe">subscribe</a></p>

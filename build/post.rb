@@ -27,6 +27,14 @@ class Post
     metadata['title']
   end
 
+  def has_title?
+    metadata.has_key? 'title'
+  end
+
+  def has_author?
+    metadata.has_key? 'author'
+  end
+
   def issue_dir
     Dir.pwd + "/" + issue + "/"
   end
