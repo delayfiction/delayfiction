@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -19,38 +19,52 @@
       function showScrolledNav() {
       var pos = document.documentElement.scrollTop;
       console.log(pos);
-        if (pos >= 220) {
-        document.getElementById('nav').classList.remove('off');
-        document.getElementById('nav').classList.add('on');
-        }
-        else if (pos < 220) {
-        document.getElementById('nav').classList.remove('on');
-          document.getElementById('nav').classList.add('off');
-        }
+      if (pos >= 220) {
+      document.getElementById('nav').classList.remove('off');
+      document.getElementById('nav').classList.add('on');
+      document.getElementById('spacer').classList.remove('off');
+      document.getElementById('spacer').classList.add('on');
+      }
+      else if (pos < 220) {
+      document.getElementById('nav').classList.remove('on');
+      document.getElementById('nav').classList.add('off');
+      document.getElementById('spacer').classList.remove('on');
+      document.getElementById('spacer').classList.add('off');
+      }
       };
     </script>
   </head>
   <body>
     <div class="page-wrap">
+      <div class="off" id="spacer">
+      </div>
       <div class="off" id="nav">
-    <div class="flag">
-      <h1 class="name">delay fiction</h1>
-      <h2 class="tagline">craft en route</h2>
-    </div>
-      <div class="nav-items">
-        <div class="item">
-          <p><a href="/issues">issue</a></p>
+        <div class="flag">
+          <h1 class="name">delay fiction</h1>
+          <h2 class="tagline">craft en route</h2>
         </div>
-        <div class="item">
-          <p><a href="/subscribe">subscribe</a></p>
-        </div>
-       <div class="item">
-         <p><a href="/submit">submit</a></p>
-        </div>
-       <div class="item">
-         <p><a href="/about">about</a></p>
+        <div class="nav-items">
+          <a href="/issues">
+            <div class="item">
+              <p>issue</p>
+            </div>
+          </a>
+          <a href="/subscribe">
+            <div class="item">
+              <p>subscribe</p>
+            </div>
+          </a>
+          <a href="/submit">
+            <div class="item">
+              <p>submit</p>
+            </div>
+          </a>
+          <a href="/about">
+            <div class="item">
+              <p>about</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
-  </div>
 

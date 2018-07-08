@@ -93,6 +93,10 @@ a:hover {
 
 /* layout */
 
+body {
+  margin: 0;
+}
+
 .page-wrap {
   width: 80%;
   margin: 0 auto;
@@ -148,7 +152,7 @@ a:hover {
 }
 
 .nav-items .item:hover {
-  background-color: #f2f2f2;
+  background-color: #42b9f4;
 }
 
 .nav-items .item p {
@@ -159,7 +163,7 @@ a:hover {
 }
 
 .nav-items .item:hover p {
-  color: #85ccf0;
+  color: #ffffff;
 }
 
 .on#nav {
@@ -183,7 +187,6 @@ a:hover {
   text-align: center;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
-  font-size: 28px;
 }
 
 .on#nav .tagline {
@@ -200,6 +203,15 @@ a:hover {
   display: inline-block;
   width: 24%;
   text-align: center;
+}
+
+.off#spacer {
+  display: none;
+}
+
+.on#spacer {
+  display: block;
+  height: 220px;
 }
 
 .post {
