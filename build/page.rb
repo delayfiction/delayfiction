@@ -35,4 +35,8 @@ class Static
     @page = self
     ERB.new(template).result(binding)
   end
+
+  def logo
+    File.read(Dir.pwd + "/build/taphandle.svg")
+  end
 end

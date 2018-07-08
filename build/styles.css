@@ -35,17 +35,25 @@
   width: 50%;
 }
 
+.wordmark-link {
+  color: #303030;
+}
+
+.wordmark-link:hover {
+  color: #303030;
+}
+
 .post-title {
   font-family: 'Amiri', serif;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   --webkit-margin-before: 0em;
   --webkit-margin-after: 0em;
 }
 
 h2.tagline {
   font-family: 'Hind Vadodara', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   color: #303030;
   font-size: 24px;
@@ -56,10 +64,10 @@ h2.tagline {
 
 h2 {
   font-family: 'Hind Vadodara', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   color: #303030;
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 2em;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
@@ -70,6 +78,34 @@ p, li {
   font-weight: 400;
   font-size: 16px;
   color: #303030;
+}
+
+.logo, .end-logo {
+  display: inline;
+  height: 28px;
+}
+
+.logo svg, .end-logo svg {
+  stroke-width: 0px;
+  fill: #303030;
+  height: 28px;
+  width: auto;
+}
+
+.wordmark-link:hover .logo svg, .end-logo svg:hover {
+  fill: #42b9f4;
+}
+
+.end-logo {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.end-logo svg {
+  margin: 0 auto;
+  width: 28px;
 }
 
 .text {
@@ -191,8 +227,13 @@ body {
 .on#nav .flag .name {
   font-family: 'Amiri', serif;
   text-align: center;
+  font-size: 32px;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
+}
+
+.on#nav .flag .name .logo svg {
+  height: 24px;
 }
 
 .on#nav .tagline {

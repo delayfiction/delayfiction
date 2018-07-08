@@ -27,6 +27,10 @@ class Static
     metadata['author'] || 'none'
   end
 
+  def logo
+    File.read(Dir.pwd + "/build/taphandle.svg")
+  end
+
   def render(template)
     @page = self
     ERB.new(template).result(binding)

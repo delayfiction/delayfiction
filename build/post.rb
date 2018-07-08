@@ -51,6 +51,10 @@ class Post
     metadata['tag']
   end
 
+  def logo
+    File.read(Dir.pwd + "/build/taphandle.svg")
+  end
+
   def render(template)
     @post = self
     ERB.new(template).result(binding)
