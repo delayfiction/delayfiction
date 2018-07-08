@@ -97,6 +97,12 @@ body {
   margin: 0;
 }
 
+.flag-wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .page-wrap {
   width: 80%;
   margin: 0 auto;
