@@ -27,11 +27,24 @@ class Issue
     metadata['title']
   end
 
+  def author
+    'none'
+  end
+
   def has_title
     metadata.has_key? 'title'
   end
 
   def has_author
     metadata.has_key? 'author'
+  end
+
+  def logo
+    File.read(Dir.pwd + "/build/taphandle.svg")
+  end
+
+  def render(template)
+    @issue = self
+    ERB.new(template).result(binding)
   end
 end

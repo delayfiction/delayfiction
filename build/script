@@ -11,7 +11,8 @@ Dir.foreach(Dir.pwd + "/src/issues") do |y|
     if Dir.exist?(issue.directory) == false
       FileUtils.mkdir(issue.directory)
     end
-    File.write(issue.directory + y, issue.html)
+    template = File.read(Dir.pwd + "/build/show-issue.html.erb")
+    File.write(issue.directory + y[0..-4] + '.html', issue.render(template))
   end
 end
 
@@ -28,6 +29,5 @@ Dir.foreach(Dir.pwd + "/src/static") do |z|
     static = Static.new(Dir.pwd + "/src/static/" + z)
     template = File.read(Dir.pwd + "/build/show-page.html.erb")
     File.write(Dir.pwd + "/" + z[0..-4] + '.html', static.render(template))
-    puts static.metadata
   end
 end
