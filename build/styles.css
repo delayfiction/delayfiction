@@ -40,7 +40,7 @@
 }
 
 .wordmark-link:hover {
-  color: #303030;
+  color: #42b9f4;
 }
 
 .post-title {
@@ -92,7 +92,7 @@ p, li {
   width: auto;
 }
 
-.wordmark-link:hover .logo svg, .end-logo svg:hover {
+.end-logo svg:hover {
   fill: #42b9f4;
 }
 
@@ -193,19 +193,15 @@ body {
   width: 100%;
 }
 
-.nav-items .item:hover {
-  background-color: #42b9f4;
-}
-
 .nav-items .item p {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #42b9f4;
+  color: #303030;
 }
 
 .nav-items .item:hover p {
-  color: #ffffff;
+  color: #42b9f4;
 }
 
 .on#nav {
