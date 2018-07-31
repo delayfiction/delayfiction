@@ -43,6 +43,10 @@ class Issue
     File.read(Dir.pwd + "/build/taphandle.svg")
   end
 
+  def includes
+    Array.new
+  end
+
   def render(template)
     @issue = self
     ERB.new(template).result(binding)

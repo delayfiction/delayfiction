@@ -7,20 +7,24 @@ require_relative 'static.rb'
 
 Dir.foreach(Dir.pwd + "/src/issues") do |y|
   if y[-3..-1] == ".md"
+    q = y[0..-4]
     issue = Issue.new(Dir.pwd + "/src/issues/" + y)
     if Dir.exist?(issue.directory) == false
       FileUtils.mkdir(issue.directory)
     end
+    includes = Array.new
+    Dir.foreach(Dir.pwd + "/src/posts/" + q ) do |x|
+      if x[-3..-1] == ".md"
+        post = Post.new(Dir.pwd + "/src/posts/" + q + "/" + x)
+        template = File.read(Dir.pwd + "/build/show-post.html.erb")
+        post_address = post.issue_dir + x[0..-4] + '.html'
+        includes.push(post_address)
+        File.write(post_address, post.render(template))
+      end
+    end
     template = File.read(Dir.pwd + "/build/show-issue.html.erb")
-    File.write(issue.directory + y[0..-4] + '.html', issue.render(template))
-  end
-end
-
-Dir.foreach(Dir.pwd + "/src/posts") do |x|
-  if x[-3..-1] == ".md"
-    post = Post.new(Dir.pwd + "/src/posts/" + x)
-    template = File.read(Dir.pwd + "/build/show-post.html.erb")
-    File.write(post.issue_dir + x[0..-4] + '.html', post.render(template))
+    File.write(issue.directory + q + '.html', issue.render(template))
+    puts includes
   end
 end
 
