@@ -1,37 +1,39 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
-require_relative 'post.rb'
+require 'pry-byebug'
 require_relative 'issue.rb'
+require_relative 'post.rb'
 require_relative 'static.rb'
 
-Dir.foreach(Dir.pwd + "/src/issues") do |y|
-  if y[-3..-1] == ".md"
-    q = y[0..-4]
-    issue = Issue.new(Dir.pwd + "/src/issues/" + y)
-    if Dir.exist?(issue.directory) == false
-      FileUtils.mkdir(issue.directory)
+story_template = File.read(Dir.pwd + "/build/show-post.html.erb")
+issue_template = File.read(Dir.pwd + "/build/show-issue.html.erb")
+static_template = File.read(Dir.pwd + "/build/show-page.html.erb")
+
+Dir.foreach(Dir.pwd + "/src/issues") do |issue_file_name|
+  if issue_file_name[-3..-1] == ".md"
+    issue_name = issue_file_name[0..-4]
+    issue = Issue.new(Dir.pwd + "/src/issues/" + issue_file_name)
+
+    FileUtils.mkdir(issue.directory) unless Dir.exist?(issue.directory)
+
+    #write issue
+    File.write(
+      File.join(issue.directory, (issue_name + '.html')),
+      issue.render(issue_template)
+    )
+
+    #write stories
+    issue.stories.each do |story|
+      post_address = File.join(issue.directory, (story.id + '.html'))
+      File.write(post_address, story.render(story_template))
     end
-    includes = Array.new
-    Dir.foreach(Dir.pwd + "/src/posts/" + q ) do |x|
-      if x[-3..-1] == ".md"
-        post = Post.new(Dir.pwd + "/src/posts/" + q + "/" + x)
-        template = File.read(Dir.pwd + "/build/show-post.html.erb")
-        post_address = post.issue_dir + x[0..-4] + '.html'
-        includes.push(post_address)
-        File.write(post_address, post.render(template))
-      end
-    end
-    template = File.read(Dir.pwd + "/build/show-issue.html.erb")
-    File.write(issue.directory + q + '.html', issue.render(template))
-    puts includes
   end
 end
 
 Dir.foreach(Dir.pwd + "/src/static") do |z|
   if z[-3..-1] == ".md"
     static = Static.new(Dir.pwd + "/src/static/" + z)
-    template = File.read(Dir.pwd + "/build/show-page.html.erb")
-    File.write(Dir.pwd + "/" + z[0..-4] + '.html', static.render(template))
+    File.write(Dir.pwd + "/" + z[0..-4] + '.html', static.render(static_template))
   end
 end

@@ -1,3 +1,4 @@
+require_relative 'post.rb'
 require 'redcarpet'
 require 'yaml'
 require 'erb'
@@ -8,7 +9,8 @@ class Issue
   def initialize(filename)
     @_data = File.read(filename)
     @content = @_data.gsub(/\A---(.|\n)*?---/, '')
-    @_dir = filename.to_s[-11..-4]
+    @_name = filename.to_s[-11..-4]
+    @_dir = filename
   end
 
   def html
@@ -20,11 +22,11 @@ class Issue
   end
 
   def directory
-    Dir.pwd + @_dir + "/"
+    Dir.pwd + @_name + "/"
   end
 
-  def title
-    metadata['title']
+  def method_missing(name)
+    metadata[name.to_s] || super
   end
 
   def author
@@ -43,8 +45,8 @@ class Issue
     File.read(Dir.pwd + "/build/taphandle.svg")
   end
 
-  def includes
-    Array.new
+  def stories
+    Post.all(Dir.pwd + '/src/posts/' + @_name + "/")
   end
 
   def render(template)

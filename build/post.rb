@@ -6,9 +6,20 @@ require 'ostruct'
 class Post
   attr_reader :content, :data
 
+  def self.all(directory)
+    Dir.entries(directory).map do |filename|
+      self.new(File.join(directory,filename)) if filename[-3..-1] == '.md'
+    end.compact
+  end
+
   def initialize(filename)
     @_data = File.read(filename)
     @content = @_data.gsub(/\A---(.|\n)*?---/, '')
+    @_filename = filename
+  end
+
+  def id
+    @_filename.gsub(/.+\//, '')[0...-3]
   end
 
   def html
@@ -38,10 +49,6 @@ class Post
   def issue_dir
     Dir.pwd + "/" + issue + "/"
   end
-
-#  def post_meta
-#    OpenStruct.new({:author => metadata['author'], :title => title, :tag => metadata['tag'], :html => html})
-#  end
 
   def author
     metadata['author']
