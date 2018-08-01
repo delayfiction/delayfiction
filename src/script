@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+require 'pry-byebug'
+require_relative 'models/base.rb'
+require_relative 'models/issue.rb'
+require_relative 'models/post.rb'
+require_relative 'models/static.rb'
+
+Base.set_source_dir(File.join(Dir.pwd, 'src'))
+Base.set_dest_dir(File.join(Dir.pwd, 'site'))
+
+Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
+  #make dir for issue
+  directory = File.join Base.dest_dir, issue.id
+  FileUtils.mkdir(directory) unless Dir.exist?(directory)
+
+  #write issue
+  File.write(
+    File.join(directory, (issue.id + '.html')),
+    issue.render('show-issue')
+  )
+
+  #write stories
+  issue.stories.each do |story|
+    File.write(
+      File.join(directory, (story.id + '.html')),
+      story.render('show-post')
+    )
+  end
+end
+
+Static.all(File.join(Base.source_dir, 'data', 'static')).each do |static|
+  File.write(
+    File.join(Base.dest_dir, (static.id + '.html')),
+    static.render('show-static')
+  )
+end
