@@ -8,16 +8,28 @@ class Base
     @@source_dir = src
   end
 
-  def self.source_dir
-    @@source_dir
+  def self.set_host(host)
+    @@host = host
   end
 
   def self.set_dest_dir(dest)
     @@dest_dir = dest
   end
 
+  def self.source_dir
+    @@source_dir
+  end
+
   def self.dest_dir
     @@dest_dir
+  end
+
+  def host
+    @@host
+  end
+
+  def asset_loc
+    @@host + '/assets'
   end
 
   def self.all(directory)
@@ -44,10 +56,6 @@ class Base
 
   def html
     Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(@content)
-  end
-
-  def logo
-    @_logo ||= File.read(File.join(@@source_dir, 'assets', 'taphandle.svg'))
   end
 end
 

@@ -7,11 +7,8 @@
     <% else %>
       <title>delay fiction</title>
     <% end %>
-    <% if author != 'none' %>
-      <link rel="stylesheet" type="text/css" href="../build/styles.css">
-    <% else %>
-      <link rel="stylesheet" type="text/css" href="./build/styles.css">
-    <% end %>
+
+    <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -44,12 +41,12 @@
           <h2 class="tagline">craft en route</h2>
         </div>
         <div class="nav-items">
-          <a href="/issues">
+          <a href="<%= host + "/issues" %>">
             <div class="item">
               <p>issue</p>
             </div>
           </a>
-          <a href="/subscribe">
+          <a href="<%= host + "/subscribe.html" %>">
             <div class="item">
               <p>subscribe</p>
             </div>
