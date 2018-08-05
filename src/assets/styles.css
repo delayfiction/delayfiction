@@ -388,4 +388,8 @@ button:hover {
   .nav-items .item {
     width: 49%;
   }
+
+  #top p {
+    -webkit-margin-after: 0em;
+  }
 }
