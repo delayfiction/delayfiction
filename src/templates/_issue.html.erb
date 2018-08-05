@@ -1,10 +1,22 @@
 <div class="page-wrap">
   <div class="issue">
-    <% @issue.stories.each do %>
-      <div class="banner">
-        <h1 class="post-title">obj</h1>
+    <h1 class="issue-title"><%= title %></h1>
+    <% @issue.stories.each do |story|%>
+      <a href="<%= host + '/' + story.issue + '/' + story.id + '.html'%>">
+        <div class="post">
+        <div class="header-image">
+          <img src="<%= asset_loc + '/header-image.png' %>">
+        </div>
+        <div class="banner">
+          <h2 class="post-title"><%= story.title %></h1>
+        </div>
+        <div class="info">
+          <div class="author"><p>by <%= story.author %></p></div>
+          <div class="divider"><p> || </p></div>
+          <div class="tags"><p><%= story.tag %></p></div>
+        </div>
       </div>
+    </a>
     <% end %>
-    <div class="text"></div>
   </div>
 

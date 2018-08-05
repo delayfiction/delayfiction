@@ -34,6 +34,15 @@ h2.tagline {
   -webkit-margin-after: 0em;
 }
 
+h1.issue-title {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  margin: 20px auto 30px auto;
+}
+
 h2 {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
@@ -226,6 +235,15 @@ body {
 .post {
   width: 100%;
   display: inline-block;
+}
+
+.issue .post {
+  border-bottom: 1px solid #303030;
+  margin-bottom: 40px;
+}
+
+.issue .post .info {
+  margin-bottom: 20px;
 }
 
 .header-image {

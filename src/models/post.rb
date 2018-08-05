@@ -4,17 +4,12 @@ require 'erb'
 class Post < Base
   attr_reader :data
 
-
   def has_title?
     metadata.has_key? 'title'
   end
 
   def has_author?
     metadata.has_key? 'author'
-  end
-
-  def issue_dir
-    Dir.pwd + "/" + issue + "/"
   end
 
   def render(name)
