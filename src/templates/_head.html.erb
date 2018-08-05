@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
       window.onscroll = showScrolledNav;
       function showScrolledNav() {
@@ -41,7 +41,7 @@
           <h2 class="tagline">craft en route</h2>
         </div>
         <div class="nav-items">
-          <a href="<%= host + "/issues" %>">
+          <a href="<%= host + "/issue.html" %>">
             <div class="item">
               <p>issue</p>
             </div>
@@ -51,12 +51,12 @@
               <p>subscribe</p>
             </div>
           </a>
-          <a href="/submit">
+          <a href="<%= host + "/submit.html" %>">
             <div class="item">
               <p>submit</p>
             </div>
           </a>
-          <a href="/about">
+          <a href="<%= host + "/about.html" %>">
             <div class="item">
               <p>about</p>
             </div>

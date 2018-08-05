@@ -11,8 +11,8 @@ Base.set_source_dir(File.join(Dir.pwd, 'src'))
 Base.set_dest_dir(File.join(Dir.pwd, 'docs'))
 
 ARGV[0] == "local" ?
-  Base.set_host(File.join(Dir.pwd, 'site')) :
-  Base.set_host("http://delayfiction.org/")
+  Base.set_host(File.join(Dir.pwd, 'docs')) :
+  Base.set_host("http://delayfiction.org")
 
 # copy assets to the right places
 `cp -r #{File.join Base.source_dir, 'assets', '.'} #{File.join Base.dest_dir, 'assets'}`

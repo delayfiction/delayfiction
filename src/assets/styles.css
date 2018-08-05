@@ -1,31 +1,3 @@
-@media only screen and (max-width: 1024px){
-  .content {
-    position: relative !important;
-    width: 70% !important;
-    top: 15% !important;
-    left: 15% !important;
-    margin-top: 15px;
-  }
-
-  input[type=email] {
-    width: 70% !important;
-    display: inline-block;
-  }
-
-  button {
-    width: 50% !important;
-  }
-
-  #signup-modal {
-    width: 90% !important;
-    left: 5vw !important;
-  }
-
-  label {
-    display: inline-block;
-  }
-}
-
 .content {
   position: fixed;
   top: 25%;
@@ -408,4 +380,45 @@ button {
 
 button:hover {
   background-color: #85ccf0;
+}
+
+@media only screen and (max-width: 1024px){
+  input[type=email] {
+    width: 70%;
+    display: inline-block;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  #signup-modal {
+    width: 90%;
+    left: 5vw;
+  }
+
+  label {
+    display: inline-block;
+  }
+
+  .text {
+    width: 90%;
+    min-height: 20vh;
+  }
+
+  .page-wrap {
+    width: 90%;
+  }
+
+  .on#nav {
+    display: none;
+  }
+
+  .on#spacer {
+    height: 255px;
+  }
+
+  .nav-items .item {
+    width: 49%;
+  }
 }
