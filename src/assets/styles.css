@@ -19,6 +19,8 @@
   font-family: 'Amiri', serif;
   text-align: center;
   font-size: 28px;
+  margin: 0 auto;
+  max-width: 75%;
   --webkit-margin-before: 0em;
   --webkit-margin-after: 0em;
 }
@@ -50,6 +52,18 @@ h2 {
   color: #303030;
   font-size: 24px;
   margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+h3 {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  text-align: center;
+  color: #303030;
+  font-size: 20px;
+  margin: 2em auto;
+  text-transform: uppercase;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
@@ -238,12 +252,7 @@ body {
 }
 
 .issue .post {
-  border-bottom: 1px solid #303030;
   margin-bottom: 40px;
-}
-
-.issue .post .info {
-  margin-bottom: 20px;
 }
 
 .header-image {
@@ -266,6 +275,8 @@ body {
   width: 100%;
   text-align: center;
   display: inline-block;
+  border-bottom: 1px solid #303030;
+  margin-bottom: 40px;
 }
 
 .author {
@@ -286,6 +297,12 @@ body {
   text-align: left;
   float: right;
   display: inline-block;
+}
+
+.opener {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .text {
@@ -389,6 +406,10 @@ button:hover {
   .text {
     width: 90%;
     min-height: 20vh;
+  }
+
+  .post-title {
+    width: 90%;
   }
 
   .page-wrap {
