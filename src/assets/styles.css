@@ -1,0 +1,443 @@
+.content {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.wordmark-link {
+  color: #303030;
+}
+
+.wordmark-link:hover {
+  color: #42b9f4;
+}
+
+.post-title {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 28px;
+  margin: 0 auto;
+  max-width: 75%;
+  --webkit-margin-before: 0em;
+  --webkit-margin-after: 0em;
+}
+
+h2.tagline {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+h1.issue-title {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  margin: 20px auto 30px auto;
+}
+
+h2 {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #303030;
+  font-size: 24px;
+  margin-bottom: 2em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+h3 {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  text-align: center;
+  color: #303030;
+  font-size: 20px;
+  margin: 2em auto;
+  text-transform: uppercase;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+p, li {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+
+.logo, .end-logo {
+  display: inline;
+  height: 28px;
+}
+
+.logo svg, .end-logo svg {
+  stroke-width: 0px;
+  fill: #303030;
+  height: 28px;
+  width: auto;
+}
+
+.end-logo svg:hover {
+  fill: #42b9f4;
+}
+
+.end-logo {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 30px auto 10px auto;
+}
+
+.end-logo svg {
+  margin: 0 auto;
+  width: 28px;
+}
+
+.ital {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #42b9f4;
+}
+
+a:hover {
+  color: #85ccf0;
+}
+
+/* layout */
+
+body {
+  margin: 0;
+}
+
+.flag-wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-wrap {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.off#nav .flag {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+.off#nav .name {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 40px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.off#nav {
+  position: static;
+}
+
+.off#nav .nav-items {
+  width: 100%;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.off#nav .nav-items:before {
+  content: '';
+  border-top: 1px solid #303030;
+  position: absolute;
+  top: -6px;
+  left: 0px;
+  width: 100%;
+}
+
+.off#nav .nav-items:after {
+  content: '';
+  border-top: 1px solid #303030;
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+  width: 100%;
+}
+
+.nav-items .item p {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+
+.nav-items .item:hover p {
+  color: #42b9f4;
+}
+
+.on#nav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #303030;
+}
+
+.on#nav .flag {
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.on#nav .flag .name {
+  font-family: 'Amiri', serif;
+  text-align: center;
+  font-size: 32px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.on#nav .flag .name .logo svg {
+  height: 24px;
+}
+
+.on#nav .tagline {
+  display: none;
+}
+
+.on#nav .nav-items {
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+
+.nav-items .item {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+.off#spacer {
+  display: none;
+}
+
+.on#spacer {
+  display: block;
+  height: 220px;
+}
+
+.post {
+  width: 100%;
+  display: inline-block;
+}
+
+.issue .post {
+  margin-bottom: 20px;
+  border-bottom: 0px solid;
+}
+
+.issue .post:hover h2 {
+  color: #42b9f4
+}
+
+.issue .post .info {
+  border-bottom: 0px solid;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #303030;
+  margin-bottom: 40px;
+}
+
+.author {
+  width: 47%;
+  text-align: right;
+  float: left;
+  display: inline-block;
+}
+
+.divider {
+  width: 6%;
+  text-align: center;
+  display: inline-block;
+}
+
+.tags {
+  width: 47%;
+  text-align: left;
+  float: right;
+  display: inline-block;
+}
+
+.opener {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text {
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 40vh;
+}
+
+.section-break {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.section-break hr {
+  color: #303030;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #303030;
+  padding: 20px 0;
+}
+/* mailchimp shit */
+
+.signup-form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cta {
+  margin-top: 20px;
+}
+
+form {
+  margin: 50px 0 30px 0;
+}
+
+label {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  color: #303030;
+  font-size: 16px;
+}
+
+input[type=email] {
+  margin-left: 5px;
+  width: 50%;
+  height: auto;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #505050;
+  font-size: 16px;
+  border: 1px solid #303030;
+  border-radius: 2px;
+}
+
+button {
+  background-color: #42b9f4;
+  color: #ffffff;
+  width: 20%;
+  border: 0px solid;
+  border-radius: 2px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.buttonsays {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #85ccf0;
+}
+
+@media only screen and (max-width: 1024px){
+  input[type=email] {
+    width: 70%;
+    display: inline-block;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  #signup-modal {
+    width: 90%;
+    left: 5vw;
+  }
+
+  label {
+    display: inline-block;
+  }
+
+  .text {
+    width: 90%;
+    min-height: 20vh;
+  }
+
+  .post-title {
+    width: 90%;
+  }
+
+  .page-wrap {
+    width: 90%;
+  }
+
+  .on#nav {
+    display: none;
+  }
+
+  .on#spacer {
+    height: 255px;
+  }
+
+  .nav-items .item {
+    width: 49%;
+  }
+
+  #top p {
+    -webkit-margin-after: 0em;
+  }
+}

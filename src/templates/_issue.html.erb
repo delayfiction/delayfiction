@@ -1,0 +1,23 @@
+<div class="page-wrap">
+  <div class="issue">
+    <div class="header-image">
+      <img src="<%= asset_loc + art %>">
+    </div>
+    <h1 class="issue-title"><%= title %></h1>
+    <% @issue.stories.each do |story|%>
+      <a href="<%= host + '/' + story.issue + '/' + story.id %>">
+        <div class="post">
+        <div class="banner">
+          <h2 class="post-title"><%= story.title %></h1>
+        </div>
+        <div class="info">
+          <div class="author"><p>by <%= story.author %></p></div>
+          <div class="divider"><p> || </p></div>
+          <div class="tags"><p><%= story.tag %></p></div>
+          <div class="opener"><p><%= story.opener %></p></div>
+        </div>
+      </div>
+    </a>
+    <% end %>
+  </div>
+

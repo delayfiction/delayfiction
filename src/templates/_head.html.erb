@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118701210-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-118701210-1');
+    </script>
+    <% if title != 'none' %>
+      <title><%= title %> || delay fiction</title>
+    <% else %>
+      <title>delay fiction</title>
+    <% end %>
+    <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      window.onscroll = showScrolledNav;
+      function showScrolledNav() {
+      var pos = document.documentElement.scrollTop;
+      console.log(pos);
+      if (pos >= 220) {
+      document.getElementById('nav').classList.remove('off');
+      document.getElementById('nav').classList.add('on');
+      document.getElementById('spacer').classList.remove('off');
+      document.getElementById('spacer').classList.add('on');
+      }
+      else if (pos < 220) {
+      document.getElementById('nav').classList.remove('on');
+      document.getElementById('nav').classList.add('off');
+      document.getElementById('spacer').classList.remove('on');
+      document.getElementById('spacer').classList.add('off');
+      }
+      };
+    </script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= opener %>">
+    <% if File.exists?(asset_loc + art) %>
+      <meta name="twitter:image" content="<%= asset_loc + art %>">
+    <% else %>
+      <meta name="twitter:image" content="<%= asset_loc + '/delayfiction.png' %>">
+    <% end %>
+  </head>
+  <body>
+    <div class="flag-wrap">
+      <div class="off" id="spacer">
+      </div>
+      <div class="off" id="nav">
+        <div class="flag">
+          <a href="https://delayfiction.org" class="wordmark-link"><h1 class="name">delay fiction</h1></a>
+          <h2 class="tagline">craft en route</h2>
+        </div>
+        <div class="nav-items">
+          <a href="<%= host + "/index" %>">
+            <div class="item" id="top">
+              <p>issue</p>
+            </div>
+          </a>
+          <a href="<%= host + "/subscribe" %>">
+            <div class="item" id="top">
+              <p>subscribe</p>
+            </div>
+          </a>
+          <a href="<%= host + "/submit" %>">
+            <div class="item">
+              <p>submit</p>
+            </div>
+          </a>
+          <a href="<%= host + "/about" %>">
+            <div class="item">
+              <p>about</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
