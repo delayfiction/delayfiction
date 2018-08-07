@@ -7,7 +7,7 @@ issue-order: 3
 opener: 'By the time the writings were traced back to me on Sixty Minutes, I was living a reasonably well-adjusted life with a Mormon lesbian couple in Brooklyn.'
 ---
 
-By the time the writings were traced back to me on *Sixty Minutes*, I was living a reasonably well-adjusted life with a Mormon lesbian couple in Brooklyn. And my boyfriend, a manic depressive, named Howl.
+**By the time the writings were traced back to me on *Sixty Minutes*, I was living a reasonably well-adjusted life with a Mormon lesbian couple in Brooklyn.** And my boyfriend, a manic depressive, named Howl.
 
 I worked at the suicide hotline, counseling others from taking their own lives. At first, I followed the script, feeding the lonely and desperate the same lines I had been fed when I was lonely and desperate and under mandatory care. I said them, but I couldn’t believe them. And one day I could no longer bring myself to say them anymore. I heard the voice at the other end of the phone: “I can’t go on, life has no meaning,” and instead of encouraging him out of discouragement, I discouraged him even more encouragingly. “You are right. There is no meaning.” He talked for a while about his life. I competed with the tragedy of my own. 
 

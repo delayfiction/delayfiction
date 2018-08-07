@@ -7,7 +7,7 @@ issue-order: 2
 opener: 'Walking down Yale Avenue North at 7:30 pm and a Juggalo is pissing at birds.'
 ---
 
-Walking down Yale Avenue North at 7:30 pm and a Juggalo is pissing at birds. He spins around, waves.
+**Walking down Yale Avenue North at 7:30 pm and a Juggalo is pissing at birds.** He spins around, waves.
 
 “How are you?” He asks. He is smiling.
 
