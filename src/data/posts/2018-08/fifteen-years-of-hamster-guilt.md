@@ -3,6 +3,7 @@ issue: 2018-08
 author: Denise Coville
 tag: short fiction
 title: 'Fifteen Years of Hamster Guilt'
+issue-order: 2
 opener: 'Walking down Yale Avenue North at 7:30 pm and a Juggalo is pissing at birds.'
 ---
 

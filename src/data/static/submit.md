@@ -3,11 +3,11 @@ title: submit
 author: none
 ---
 
-<span class="ital">Delay</span> welcomes short fiction submissions from all writers, emerging and established. Submission windows are periodically open throughout the year, about two months before each issue. <span class="ital">Delay</span> publishes five times annually: August, November, December, February, and May.
+<span class="ital">Delay</span> welcomes short fiction submissions from all writers, emerging and established. <a href="https://delayfiction.submittable.com/submit">Submission windows</a> are periodically open throughout the year, about two months before each issue. <span class="ital">Delay</span> publishes five times annually: August, November, December, February, and May.
 
 ## what <span class="ital">Delay</span> loves
 
-* Otessa Moshfegh's stories
+* Ottessa Moshfegh's stories
 * Alexandra Kleeman's stories
 * Ernest Hemingway
 * darkness

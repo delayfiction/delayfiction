@@ -2,12 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118701210-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-118701210-1');
+    </script>
     <% if title != 'none' %>
       <title><%= title %> || delay fiction</title>
     <% else %>
       <title>delay fiction</title>
     <% end %>
-
     <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +37,14 @@
       }
       };
     </script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= title %>">
+    <meta name="twitter:description" content="<%= opener %>">
+    <% if File.exists?(asset_loc + art) %>
+      <meta name="twitter:image" content="<%= asset_loc + art %>">
+    <% else %>
+      <meta name="twitter:image" content="<%= asset_loc + '/delayfiction.png' %>">
+    <% end %>
   </head>
   <body>
     <div class="flag-wrap">
@@ -41,7 +56,7 @@
           <h2 class="tagline">craft en route</h2>
         </div>
         <div class="nav-items">
-          <a href="<%= host + "/issue.html" %>">
+          <a href="<%= host + "/index.html" %>">
             <div class="item" id="top">
               <p>issue</p>
             </div>

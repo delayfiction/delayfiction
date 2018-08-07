@@ -47,7 +47,7 @@ h1.issue-title {
 
 h2 {
   font-family: 'Hind Vadodara', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
   color: #303030;
   font-size: 24px;
@@ -252,7 +252,16 @@ body {
 }
 
 .issue .post {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: 0px solid;
+}
+
+.issue .post:hover h2 {
+  color: #42b9f4
+}
+
+.issue .post .info {
+  border-bottom: 0px solid;
 }
 
 .header-image {

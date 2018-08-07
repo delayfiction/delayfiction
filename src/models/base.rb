@@ -32,6 +32,18 @@ class Base
     @@host + '/assets'
   end
 
+  def art
+    '/' + id + '.png'
+  end
+
+  def title
+    metadata['title'] || 'delay fiction'
+  end
+
+  def opener
+    metadata['opener'] || 'craft en route'
+  end
+
   def self.all(directory)
     Dir.entries(directory).map do |filename|
       self.new(File.join(directory,filename)) if filename[-3..-1] == '.md'

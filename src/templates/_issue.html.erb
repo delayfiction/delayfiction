@@ -1,12 +1,12 @@
 <div class="page-wrap">
   <div class="issue">
+    <div class="header-image">
+      <img src="<%= asset_loc + art %>">
+    </div>
     <h1 class="issue-title"><%= title %></h1>
     <% @issue.stories.each do |story|%>
       <a href="<%= host + '/' + story.issue + '/' + story.id + '.html'%>">
         <div class="post">
-        <div class="header-image">
-          <img src="<%= asset_loc + '/header-image.png' %>">
-        </div>
         <div class="banner">
           <h2 class="post-title"><%= story.title %></h1>
         </div>
