@@ -321,6 +321,10 @@ body {
   min-height: 40vh;
 }
 
+.text p, .opener p {
+  line-height: 28px;
+}
+
 .section-break {
   width: 40%;
   margin: 40px auto;
@@ -403,11 +407,6 @@ button:hover {
     width: 50%;
   }
 
-  #signup-modal {
-    width: 90%;
-    left: 5vw;
-  }
-
   label {
     display: inline-block;
   }
@@ -417,9 +416,14 @@ button:hover {
     min-height: 20vh;
   }
 
+  .opener {
+    width: 90%;
+  }
+
   .post-title {
     width: 90%;
   }
+
   .flag-wrap {
     width: 90%;
   }
