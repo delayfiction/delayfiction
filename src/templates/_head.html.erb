@@ -37,6 +37,14 @@
       }
       };
     </script>
+    <meta name="og:type" content="article">
+    <meta name="og:title" content="<%= title %>">
+    <meta name="og:description" content="<%= opener %>">
+    <% if File.exists?(asset_loc + art) %>
+      <meta name="og:image" content="<%= asset_loc + art %>">
+    <% else %>
+      <meta name="og:image" content="<%= asset_loc + '/delayfiction.png' %>">
+    <% end %>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<%= title %>">
     <meta name="twitter:description" content="<%= opener %>">
