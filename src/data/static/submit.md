@@ -8,18 +8,15 @@ author: none
 ## what <span class="ital">Delay</span> loves
 
 * Ottessa Moshfegh's stories
-* Alexandra Kleeman's stories
-* Ernest Hemingway
+* Ernest Hemingway's sentences
 * darkness
 * weirdos
 * losers
-* good David Foster Wallace
 
 ## what <span class="ital">Delay</span> does not love
 
-* personal essays
-* bad hookups
-* whimsy
 * mistaking politics for art
 * stories that are transparently about the author
-* most David Foster Wallace
+* whimsy for whimsy's sake
+* stories without characters
+* recycled DFW gimmicks
