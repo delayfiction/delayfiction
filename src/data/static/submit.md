@@ -16,7 +16,7 @@ author: none
 ## what <span class="ital">Delay</span> does not love
 
 * mistaking politics for art
-* stories that are transparently without the author
+* stories that are transparently about the author
 * whimsy for whimsy's sake
 * stories without characters
 * recycled DFW gimmicks
