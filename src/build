@@ -8,13 +8,20 @@ require_relative 'models/post.rb'
 require_relative 'models/static.rb'
 
 Base.set_source_dir(File.join(Dir.pwd, 'src'))
-Base.set_dest_dir(File.join(Dir.pwd, 'docs'))
 
-ARGV[0] == "local" ?
-  Base.set_host(File.join(Dir.pwd, 'docs')) :
+if ARGV[0] == "local"
+  Base.set_host(File.join(Dir.pwd, 'dev_docs'))
+  Base.set_dest_dir(File.join(Dir.pwd, 'dev_docs'))
+else
   Base.set_host("https://delayfiction.org")
+  Base.set_dest_dir(File.join(Dir.pwd, 'docs'))
+end
 
 # copy assets to the right places
+assets_dir = File.join Base.dest_dir, 'assets'
+FileUtils.mkdir(Base.dest_dir) unless Dir.exist?(Base.dest_dir)
+FileUtils.mkdir(assets_dir) unless Dir.exist?(assets_dir)
+
 `cp -r #{File.join Base.source_dir, 'assets', '.'} #{File.join Base.dest_dir, 'assets'}`
 `cp -r #{File.join Base.source_dir, 'auto_assets', '.'} #{File.join Base.dest_dir}`
 
