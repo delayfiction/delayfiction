@@ -1,0 +1,18 @@
+<div class="page-wrap">
+  <div class="issue">
+   <% @mag.issues.each do |issue|%>
+   <div class="header-image">
+      <img src="<%= asset_loc + art %>">
+    </div>
+    <h1 class="issue-title"><%= title %></h1>
+      <% binding.pry %>
+      <a href="<%= host + '/' + issue.id  %>">
+        <div class="post">
+        <div class="banner">
+          <h2 class="post-title"><%= issue.title %></h1>
+        </div>
+     </div>
+    </a>
+    <% end %>
+  </div>
+

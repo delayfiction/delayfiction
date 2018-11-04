@@ -62,6 +62,12 @@ class Base
     metadata[name.to_s] || super
   end
 
+  def render(name)
+    @mag = self
+    template = File.read(File.join(@@source_dir, "templates", (name + '.html.erb')))
+    ERB.new(template).result(binding)
+  end
+
   def metadata
     @metadata ||= YAML.load(@_data)
   end

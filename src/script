@@ -4,6 +4,7 @@ require 'fileutils'
 require 'pry-byebug'
 require_relative 'models/base.rb'
 require_relative 'models/issue.rb'
+require_relative 'models/issues.rb'
 require_relative 'models/post.rb'
 require_relative 'models/static.rb'
 
@@ -43,4 +44,11 @@ Static.all(File.join(Base.source_dir, 'data', 'static')).each do |static|
     File.join(Base.dest_dir, (static.id + '.html')),
     static.render('show-static')
   )
+end
+
+Issues.all(File.join(Base.source_dir, 'data', 'issues')).each do |mag|
+  File.write(
+    File.join(Base.dest_dir, 'issues.html'),
+    mag.render('show-issues')
+)
 end
