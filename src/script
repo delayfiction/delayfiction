@@ -6,6 +6,7 @@ require_relative 'models/base.rb'
 require_relative 'models/issue.rb'
 require_relative 'models/post.rb'
 require_relative 'models/static.rb'
+require_relative 'models/volume.rb'
 
 Base.set_source_dir(File.join(Dir.pwd, 'src'))
 Base.set_dest_dir(File.join(Dir.pwd, 'docs'))
@@ -18,6 +19,12 @@ ARGV[0] == "local" ?
 `cp -r #{File.join Base.source_dir, 'assets', '.'} #{File.join Base.dest_dir, 'assets'}`
 `cp -r #{File.join Base.source_dir, 'auto_assets', '.'} #{File.join Base.dest_dir}`
 
+volume = Volume.find(File.join(Base.source_dir, 'data/volumes/2018.md'))
+File.write(
+  File.join(Base.dest_dir, (volume.id + '.html')),
+  volume.render('show-volume')
+)
+
 Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
   #make dir for issue
   directory = File.join Base.dest_dir, issue.id
@@ -25,7 +32,7 @@ Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
 
   #write issue
   File.write(
-    File.join(directory, (issue.id + '.html')),
+    File.join(directory + '.html'),
     issue.render('show-issue')
   )
 

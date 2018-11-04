@@ -1,0 +1,16 @@
+<div class="page-wrap">
+  <div class="issue">
+    <div class="header-image">
+    </div>
+    <% @volume.issues.each do |issue|%>
+      <a href="<%= host + '/' + issue.id %>">
+      <img src="<%= asset_loc + issue.art %>">
+       <div class="post">
+        <div class="banner">
+          <h2 class="post-title"><%= issue.title %></h2>
+        </div>
+     </div>
+    </a>
+    <% end %>
+  </div>
+
