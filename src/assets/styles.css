@@ -488,6 +488,11 @@ button:hover {
     margin: 0;
     width: 95%;
     text-align: center;
+    float: none;
+  }
+
+  .righter h3, .lefter h3 {
+    text-align: center;
   }
 
   #top p {
