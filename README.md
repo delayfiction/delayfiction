@@ -6,7 +6,7 @@ a magazine, for stories
 
 run `src/script` to build with the expectation of publication. add `local` to build for local testing.
 
-to publish, commit it to github. we're not as sophisticated operationally as our sophisticated literary taste would lead you to believe.
+to publish, push it to the master branch on github. we're not as sophisticated operationally as our sophisticated literary taste would lead you to believe.
 
 ## stories
 
