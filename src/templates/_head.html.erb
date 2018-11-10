@@ -52,6 +52,48 @@
     <% else %>
       <meta name="twitter:image" content="<%= asset_loc + '/delayfiction.png' %>">
     <% end %>
+
+    <% if @post %>
+      <script type="application/ld+json">
+        { "@context": "http://www.schema.org",
+        "@type": "CreativeWork",
+        "publisher": {
+        "@type": "Organization",
+        "name": "Delay Fiction",
+        "logo": "tktk"
+        },
+        "sourceOrganization": "Delay Fiction",
+        "author": "<%= @post.author %>",
+        "headline": "<%= @post.title %>",
+        "image": "<%= asset_loc + @post.art %>",
+        "description": "<%= @post.opener %>",
+        "url": "<%= host + '/' + @post.this_issue.id + '/' + @post.id + '.html' %>",
+        "datePublished": "<%= @post.this_issue.id + '-01' %>"
+        }
+      </script>
+    <% elsif @issue %>
+      <script type="application/ld+json">
+        { "@context": "http://www.schema.org",
+        "@type": "PublicationIssue",
+        "publisher": {
+        "@type": "Organization",
+        "name": "Delay Fiction",
+        "logo": "tktk"
+        },
+        "sourceOrganization": "Delay Fiction",
+        "creator":  {
+        "@type": "Organization",
+        "name": "Delay Fiction",
+        "logo": "tktk"
+        },
+        "headline": "<%= @issue.title %>",
+        "image": "<%= asset_loc + @issue.art %>",
+        "description": "The <%= @issue.title %> issue of Delay Fiction.",
+        "url": "<%= host + '/' + @issue.id + '.html' %>",
+        "datePublished": "<%= @issue.id + '-01' %>"
+        }
+      </script>
+    <% end %>
   </head>
   <body>
     <div class="flag-wrap">
