@@ -334,6 +334,32 @@ body {
   color: #303030;
 }
 
+.pagination {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.lefter {
+  width: 45%;
+  margin: 0 0 0 4%;
+  float: left;
+  text-align: left;
+}
+
+.righter {
+  width: 45%;
+  margin: 0 4% 0 0;
+  float: right;
+  text-align: right;
+}
+
+.righter p, .lefter p {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .footer {
   width: 100%;
   text-align: center;
@@ -341,6 +367,7 @@ body {
   border-top: 1px solid #303030;
   padding: 20px 0;
 }
+
 /* mailchimp shit */
 
 .signup-form {
@@ -412,24 +439,24 @@ button:hover {
   }
 
   .text {
-    width: 90%;
+    width: 95%;
     min-height: 20vh;
   }
 
   .opener {
-    width: 90%;
+    width: 95%;
   }
 
   .post-title {
-    width: 90%;
+    width: 95%;
   }
 
   .flag-wrap {
-    width: 90%;
+    width: 95%;
   }
 
   .page-wrap {
-    width: 90%;
+    width: 95%;
   }
 
   .on#nav {
@@ -442,6 +469,16 @@ button:hover {
 
   .nav-items .item {
     width: 49%;
+  }
+
+  .pagination {
+    width: 95%;
+  }
+
+  .righter, .lefter {
+    margin: 0;
+    width: 95%;
+    text-align: center;
   }
 
   #top p {
