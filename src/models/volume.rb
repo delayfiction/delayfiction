@@ -14,10 +14,6 @@ class Volume < Base
     'none'
   end
 
-  def title
-    'literally magazine'
-  end
-
   def issues
     Issue.all(File.join(@@source_dir, 'data', 'issues/')).reverse
   end

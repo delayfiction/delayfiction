@@ -369,6 +369,14 @@ body {
   text-align: left;
 }
 
+.collection-issue {
+  margin-bottom: 40px;
+}
+
+.collection-issue:hover h2 {
+  color: #42b9f4;
+}
+
 .footer {
   width: 100%;
   margin-top: 20px;
