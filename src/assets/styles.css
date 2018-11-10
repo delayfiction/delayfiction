@@ -95,7 +95,7 @@ p, li {
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin: 30px auto 10px auto;
+  margin: 30px auto 30px auto;
 }
 
 .end-logo svg {
@@ -336,19 +336,20 @@ body {
 
 .pagination {
   width: 75%;
-  margin: 0 auto;
+  margin: 0px auto;
+  display: inline-block;
 }
 
 .lefter {
-  width: 45%;
-  margin: 0 0 0 4%;
+  width: 50%;
+  margin: 0 auto;
   float: left;
   text-align: left;
 }
 
 .righter {
-  width: 45%;
-  margin: 0 4% 0 0;
+  width: 50%;
+  margin: 0 auto;
   float: right;
   text-align: right;
 }
@@ -360,10 +361,18 @@ body {
   line-height: 24px;
 }
 
+.righter h3 {
+  text-align: right;
+}
+
+.lefter h3 {
+  text-align: left;
+}
+
 .footer {
   width: 100%;
+  margin-top: 20px;
   text-align: center;
-  margin-top: 40px;
   border-top: 1px solid #303030;
   padding: 20px 0;
 }

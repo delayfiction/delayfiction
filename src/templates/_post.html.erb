@@ -15,22 +15,3 @@
           <%= html %>
         </div>
       </div>
-      <div class="pagination">
-  <% if prev_post %>
-    <div class="lefter">
-      <p><a href="<%= host + '/' + this_issue.id + '/' + prev_post.id + '.html' %>">
-        << <%= prev_post.title %>
-      </a></p>
-     </div>
-    <% end %>
-  <% if next_post %>
-    <div class="righter">
-      <p><a href="<%= host + '/' + this_issue.id + '/' + next_post.id + '.html' %>">
-        <%= next_post.title %> >>
-      </a></p>
-    </div>
-  <% end %>
-</div>
-
-
-

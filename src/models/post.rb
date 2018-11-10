@@ -17,16 +17,24 @@ class Post < Base
     Issue.find(File.join(@@source_dir, 'data', 'issues', (issue_id + '.md')))
   end
 
-  def next_post
+  def next_entry
     next_post_ordinal = issue_order
-    next_post = this_issue.stories[next_post_ordinal]
+    next_entry = this_issue.stories[next_post_ordinal]
   end
 
-  def prev_post
+  def prev_entry
     prev_post_ordinal = issue_order - 2
     if prev_post_ordinal >= 0
-      prev_post = this_issue.stories[prev_post_ordinal]
+      prev_entry = this_issue.stories[prev_post_ordinal]
     end
+  end
+
+  def next_entry_slug
+    this_issue.id + '/' + next_entry.id + '.html'
+  end
+
+  def prev_entry_slug
+    this_issue.id + '/' + prev_entry.id + '.html'
   end
 
   def render(name)

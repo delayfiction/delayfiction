@@ -19,22 +19,5 @@
       </div>
     </a>
   <% end %>
-      <div class="pagination">
-  <% if prev_issue %>
-    <div class="lefter">
-      <p><a href="<%= host + '/' + prev_issue.id + '.html' %>">
-        << <%= prev_issue.title %>
-      </a></p>
-     </div>
-    <% end %>
-  <% if next_issue %>
-    <div class="righter">
-      <p><a href="<%= host + '/' + next_issue.id + '.html' %>">
-        <%= next_issue.title %> >>
-      </a></p>
-    </div>
-  <% end %>
-</div>
-
   </div>
 

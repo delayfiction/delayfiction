@@ -55,12 +55,20 @@ class Issue < Base
     end
   end
 
-  def next_issue
+  def next_entry
     Issue.find(File.join(@@source_dir, 'data', 'issues', ('2018-' + next_issue_month + '.md')))
   end
 
-  def prev_issue
+  def prev_entry
     Issue.find(File.join(@@source_dir, 'data', 'issues', ('2018-' + prev_issue_month + '.md')))
+  end
+
+  def next_entry_slug
+    '2018-' + next_issue_month + '.html'
+  end
+
+  def prev_entry_slug
+    '2018-' + prev_issue_month + '.html'
   end
 
   def stories
