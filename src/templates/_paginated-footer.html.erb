@@ -2,18 +2,18 @@
 <div class="pagination">
   <div class="lefter">
     <% if prev_entry %>
-      <h3>Previous</h3>
-      <p><a href="<%= host + '/' + prev_entry_slug %>">
-        << <%= prev_entry.title %>
-    </a></p>
+     <a href="<%= host + '/' + prev_entry_slug %>">
+     <h3><< Previous</h3>
+     <p><%= prev_entry.title %>
+    </p></a>
   <% end %>
 </div>
 <div class="righter">
   <% if next_entry %>
-    <h3>Next</h3>
-    <p><a href="<%= host + '/' + next_entry_slug %>">
-      <%= next_entry.title %> >>
-    </a></p>
+    <a href="<%= host + '/' + next_entry_slug %>">
+      <h3>Next >></h3>
+      <p><%= next_entry.title %>
+    </p></a>
   <% end %>
 </div>
   </div>

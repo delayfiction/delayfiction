@@ -21,8 +21,8 @@
   font-size: 28px;
   margin: 0 auto;
   max-width: 75%;
-  --webkit-margin-before: 0em;
-  --webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 
 h2.tagline {
@@ -359,6 +359,14 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  -webkit-margin-before: 0;
+  text-decoration: none;
+  color: #42b9f4;
+}
+
+.lefter h3, .righter h3 {
+  -webkit-margin-after: 0;
+  margin: 0 auto;
 }
 
 .righter h3 {
@@ -367,6 +375,10 @@ body {
 
 .lefter h3 {
   text-align: left;
+}
+
+.righter:hover h3, .lefter:hover h3, .righter:hover p, .lefter:hover p {
+  color: #85ccf0;
 }
 
 .collection-issue {
