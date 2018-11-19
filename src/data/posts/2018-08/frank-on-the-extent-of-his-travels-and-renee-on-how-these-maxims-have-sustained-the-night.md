@@ -3,7 +3,7 @@ issue: 2018-08
 author: Shelly Alminas
 title: 'Frank, on the Extent of His Travels; and Renee, on How These Maxims Have Sustained the Night'
 tag: short fiction
-issue-order: 1
+issue_order: 1
 opener: 'I wear a bowtie because there is an old woman in the muffin shop every morning who seems very intent on being there.'
 ---
 

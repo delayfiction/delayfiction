@@ -21,8 +21,8 @@
   font-size: 28px;
   margin: 0 auto;
   max-width: 75%;
-  --webkit-margin-before: 0em;
-  --webkit-margin-after: 0em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 
 h2.tagline {
@@ -95,7 +95,7 @@ p, li {
   display: inline-block;
   text-align: center;
   width: 100%;
-  margin: 30px auto 10px auto;
+  margin: 30px auto 30px auto;
 }
 
 .end-logo svg {
@@ -316,9 +316,20 @@ body {
 
 .text {
   width: 75%;
+  max-width: 760px;
   margin: 0 auto;
   text-align: left;
   min-height: 40vh;
+}
+
+.pull {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.pull-short {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .text p, .opener p {
@@ -334,13 +345,69 @@ body {
   color: #303030;
 }
 
+.pagination {
+  width: 75%;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+.lefter {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+  text-align: left;
+}
+
+.righter {
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+  text-align: right;
+}
+
+.righter p, .lefter p {
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-margin-before: 0;
+  text-decoration: none;
+  color: #42b9f4;
+}
+
+.lefter h3, .righter h3 {
+  -webkit-margin-after: 0;
+  margin: 0 auto;
+}
+
+.righter h3 {
+  text-align: right;
+}
+
+.lefter h3 {
+  text-align: left;
+}
+
+.righter:hover h3, .lefter:hover h3, .righter:hover p, .lefter:hover p {
+  color: #85ccf0;
+}
+
+.collection-issue {
+  margin-bottom: 40px;
+}
+
+.collection-issue:hover h2 {
+  color: #42b9f4;
+}
+
 .footer {
   width: 100%;
+  margin-top: 20px;
   text-align: center;
-  margin-top: 40px;
   border-top: 1px solid #303030;
   padding: 20px 0;
 }
+
 /* mailchimp shit */
 
 .signup-form {
@@ -412,24 +479,29 @@ button:hover {
   }
 
   .text {
-    width: 90%;
+    width: 95%;
     min-height: 20vh;
   }
 
+  .pull, .pull-short {
+    width: 85%;
+    margin: 0 auto;
+  }
+
   .opener {
-    width: 90%;
+    width: 95%;
   }
 
   .post-title {
-    width: 90%;
+    width: 95%;
   }
 
   .flag-wrap {
-    width: 90%;
+    width: 95%;
   }
 
   .page-wrap {
-    width: 90%;
+    width: 95%;
   }
 
   .on#nav {
@@ -442,6 +514,21 @@ button:hover {
 
   .nav-items .item {
     width: 49%;
+  }
+
+  .pagination {
+    width: 95%;
+  }
+
+  .righter, .lefter {
+    margin: 0;
+    width: 95%;
+    text-align: center;
+    float: none;
+  }
+
+  .righter h3, .lefter h3 {
+    text-align: center;
   }
 
   #top p {
