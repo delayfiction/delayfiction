@@ -13,6 +13,7 @@ class Issue < Base
     'none'
   end
 
+
   def has_title
     metadata.has_key? 'title'
   end

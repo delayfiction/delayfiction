@@ -316,9 +316,20 @@ body {
 
 .text {
   width: 75%;
+  max-width: 760px;
   margin: 0 auto;
   text-align: left;
   min-height: 40vh;
+}
+
+.pull {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.pull-short {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .text p, .opener p {
@@ -470,6 +481,11 @@ button:hover {
   .text {
     width: 95%;
     min-height: 20vh;
+  }
+
+  .pull, .pull-short {
+    width: 85%;
+    margin: 0 auto;
   }
 
   .opener {

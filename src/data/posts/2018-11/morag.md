@@ -29,7 +29,7 @@ The fog was about me and I didn’t know if I’d be able to read. I opened the 
 
 I poured then sat back to my book. “So what’s that you’re reading?” I looked up the line of his suit and told him “it’s a book about the Rambam.” His look was steady. I said “Maimonides” and then “if that’s something you’re into” and then “sorry” and I looked back at the book. 
 
-“The guy who was here yesterday was a miserable bastard, no smiles, could hardly get a word out of him’. I let the book rest on my leg. “Steve” I said “yeah he can be like that sometimes.” “I mean” he said “I don’t get why you’d work in the service industry if you have an attitude like that.” I closed the book to hear his words. Wishing I too could be a miserable bastard.
+“The guy who was here yesterday was a miserable bastard, no smiles, could hardly get a word out of him.” I let the book rest on my leg. “Steve” I said “yeah he can be like that sometimes.” “I mean” he said “I don’t get why you’d work in the service industry if you have an attitude like that.” I closed the book to hear his words. Wishing I too could be a miserable bastard.
 
 He was asking me a question. He was asking if I was a student. I was shaking my head and he was saying “see these students” and then something else. I was thinking of a cartoon I could draw about the Rambam and his wife. She’d be cooking and asking him what he’s doing. He’d say “nothing…” with a jar in his hand and she’d be suspicious. He’d put it on a shelf and she’d yell “STOP CATEGORISING THINGS” and he’d run away. I could put that on Instagram but I don’t know who’d be interested.
 
@@ -45,6 +45,8 @@ I’d got my stuff together by the time he was back. I asked him how he was and 
 
 The sun was falling from the tops of the buildings and I was thinking about freeing the food though I didn’t really need to. I’d freed a couple of beers and a roll of toilet paper from work and I’d enough to be eating for now. Should’ve gone home and got some tea but my paces were taking me where they always did. That bar where I could sink. Elbows into the wood. Eyes into the words of a book. Like I’m the stain of a spilt drink.
 
+<div class="section-break"><hr></div>
+
 Morag and I first freed the food from a big Tesco down in Manchester. I was visiting her and neither of us had money. We’d enough to get some cheap wine so we paid up for that and let them check our IDs, heaping food into bags while it happened. The staff walked fast around in their blue shirts with smiles or frowns. We knew they weren’t paid enough to care.
 
 “Wait” Morag said “get the receipt.” “Why?” “Because thieves don’t take receipts.” I don’t know if it ever made a difference but since then we always took the receipt. We went out by a shift of the guard’s eye and kept our breath for a few paces on the street before Morag shouted “we freed the food!” We jumped and hugged as much as we could with our bags. “Free the food!” “Free the food!”
@@ -56,6 +58,8 @@ Shops were different after that. I looked at them in a new way. I looked at how 
 But most of all it was the stuff being sold. My eyes went up from the cheap shelves at the bottom once all the numbers had fallen away. The numbers which you had to add up in your head to make sure you weren’t screwed over till you got your next paycheck. It isn’t easy with your head bowed beneath the music. The numbers which weren’t like other numbers. There were only two numbers in their system: for you and not for you. Shouting or whispering themselves to you as they please.
 
 We silenced their shouts and whispers when we freed the food. Things we’d never imagined we could own or taste were there for us. It wasn’t only the once I cried over stolen food.
+
+<div class="section-break"><hr></div>
 
 Here I am. Stealing. Hating. My parents asking what I’m doing with myself. My degree is useless. The fog falls thick when I try to think of what I want to do. I’ve no boyfriend or girlfriend and I seem to be incapable of getting either. My best friend lives in another town and we’re both bad at replying to messages. I exist. I don’t like dogs.
 
@@ -71,6 +75,8 @@ I’ve other friends but it’s not the same. We had a mythology together. But s
 
 I had a dream once where she worked in the same place as me. The boss was shouting at her to go down to the cellar. But I knew the dogs would be down there and they’d get her. I tried to go with her but I couldn’t move. I tried to call to her but my mouth was full of plastic wrappers. I kept spewing them out but there’d always be more. I woke up late the next day and got yelled at.
 
+<div class="section-break"><hr></div>
+
 The noise and heat heaped up and over as I stepped into the bar. At least they keep the music low here. It’s cheaper than most places but I can still only afford to come here because I free the food. Could spend money on other things. Spend money and go home with a fear. So I spend money and wake up with a hangover instead.
 
 I come here to read or draw. The things I like to do. But I’ve started knowing people as well. At first I only chose the place because it didn’t have a TV. I still read or draw but when there’s people who know me I talk to them. Of course they’re friendly. But I still go away with a sense I shouldn’t be there. It’s worse if I meet a new person and I have to answer their questions. They always ask me about music. What I listen to. What I like. Sometimes music brings back the fog. I can’t listen to it much so I don’t know what to say.
@@ -79,9 +85,11 @@ This time the only person around who I knew was the bartender. Sam. He gives me 
 
 “So Hannah” he said “what’ll you be having?” I asked for a cider and hoped my smile could match his. He was busy though. He went straight to pouring and I went to my book. When I gave him the money he was already looking elsewhere and saying “what can I get you?”
 
+<div class="section-break"><hr></div>
+
 First time I’d met him I’d been sat up at the bar making a cartoon. This one was about Buddha’s wife and Plato’s wife having an argument. There was a bag of freed food at my feet. I remember my ankles balancing the butternut squash at the top of it all. Not often I can sit still but that time it was alright. Sam didn’t ask about what I was doing but I asked him if it worked. He didn’t laugh much but his smile threw open his teeth. Since then we’d fit our words between his pourings. I never saw him outside that bar.
 
-Now and then I’d look up from my book and he’d send me a smile to soak in. Then he looked past me with a different smile. A customer smile. And there” was a hand below my shoulder and a voice saying “oh hello how are you?” It was the man who’d said I’d too much negativity. “Hi.” “Do I get a hug?” I put my forearms on his back while he pulled my head to his chest. I was glad it didn’t last long.
+Now and then I’d look up from my book and he’d send me a smile to soak in. Then he looked past me with a different smile. A customer smile. And there was a hand below my shoulder and a voice saying “oh hello how are you?” It was the man who’d said I’d too much negativity. “Hi.” “Do I get a hug?” I put my forearms on his back while he pulled my head to his chest. I was glad it didn’t last long.
 
 A smiling face shouting “Hannah” ran up. I only remembered who he was when his arms went round me too. Scott, that was his name. I couldn’t remember the other one’s name. “I haven’t seen you since uni!” I realised I was smiling. “How are you doing?” “Ok.” The other one asked if he could get me a drink and I said “I’ve got one” and he made a noise and leaned and I said again “I’ve got one.”
 
