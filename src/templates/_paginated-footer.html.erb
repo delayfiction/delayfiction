@@ -1,0 +1,25 @@
+<div class="end-logo"><a href="<%= host %>"><%= render '_taphandle' %></a></div>
+<div class="pagination">
+  <div class="lefter">
+    <% if prev_entry %>
+     <a href="<%= host + '/' + prev_entry_slug %>">
+     <h3><< Previous</h3>
+     <p><%= prev_entry.title %>
+    </p></a>
+  <% end %>
+</div>
+<div class="righter">
+  <% if next_entry %>
+    <a href="<%= host + '/' + next_entry_slug %>">
+      <h3>Next >></h3>
+      <p><%= next_entry.title %>
+    </p></a>
+  <% end %>
+</div>
+  </div>
+  <div class="footer">
+    <p>&copy; 2018 Delay Fiction<% if author != 'none' %> &amp; <%= author %><% end %> ||  <a href="<%= host + "/subscribe" %>">subscribe</a>
+  </div>
+</div>
+  </body>
+</html>

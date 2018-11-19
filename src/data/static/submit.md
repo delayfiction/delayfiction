@@ -1,6 +1,5 @@
 ---
 title: submit
-author: none
 ---
 
 <span class="ital">Delay</span> welcomes short fiction submissions from all writers, emerging and established. <a href="https://delayfiction.submittable.com/submit">Submission windows</a> are periodically open throughout the year, about two months before each issue. <span class="ital">Delay</span> publishes five times annually: August, November, December, February, and May.

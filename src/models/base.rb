@@ -50,6 +50,14 @@ class Base
     end.compact
   end
 
+  def self.find(filename)
+    begin
+      self.new(filename)
+    rescue Errno::ENOENT => e
+      nil
+    end
+  end
+
   def initialize(filename)
     @_dir = filename
     @id = filename.gsub(/.+\//, '')[0...-3]
