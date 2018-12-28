@@ -5,6 +5,7 @@ title: 'Little Red Lines'
 tag: short fiction
 issue_order: 1
 opener: 'The celebrated writer talks at some length about the problem of oppression and when the subject of slavery comes up he confesses that he’s no longer a real pacifist, that in fact if he were Thomas Jefferson’s slave, he would have no choice: “I would accept an early death,” says the celebrated writer, “and slit the president’s throat.”'
+bio: ' is the Sparks Fellow at Notre Dame, where he received his MFA. His work has appeared or is forthcoming in Chicago Quarterly Review, Tin House Online, Baltimore Review, Hawai’i Pacific Review, Neon, and others.'
 ---
 
 **The celebrated writer talks at some length about the problem of oppression and when the subject of slavery comes up he confesses that he’s no longer a real pacifist, that in fact if he were Thomas Jefferson’s slave, he would have no choice: “I would accept an early death,” says the celebrated writer, “and slit the president’s throat.”**
