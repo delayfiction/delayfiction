@@ -16,7 +16,7 @@
       <title>delay fiction</title>
     <% end %>
     <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
-    <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara|Cutive+Mono" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
       window.onscroll = showScrolledNav;
@@ -67,7 +67,7 @@
         "headline": "<%= @post.title %>",
         "image": "<%= asset_loc + @post.art %>",
         "description": "<%= @post.opener %>",
-        "url": "<%= host + '/' + @post.this_issue.id + '/' + @post.id + '.html' %>",
+        "url": "<%= host + '/' + @post.this_issue.id + '/' + @post.id %>",
         "datePublished": "<%= @post.this_issue.id + '-01' %>"
         }
       </script>
@@ -89,7 +89,7 @@
         "headline": "<%= @issue.title %>",
         "image": "<%= asset_loc + @issue.art %>",
         "description": "The <%= @issue.title %> issue of Delay Fiction.",
-        "url": "<%= host + '/' + @issue.id + '.html' %>",
+        "url": "<%= host + '/' + @issue.id %>",
         "datePublished": "<%= @issue.id + '-01' %>"
         }
       </script>
@@ -105,7 +105,7 @@
           <h2 class="tagline">craft en route</h2>
         </div>
         <div class="nav-items">
-          <a href="<%= host + "/2018.html" %>">
+          <a href="<%= host + "/2018" %>">
             <div class="item" id="top">
               <p>issues</p>
             </div>

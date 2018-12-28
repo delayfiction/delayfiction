@@ -36,6 +36,8 @@ class Issue < Base
       '11'
     when '11'
       '12'
+    when '12'
+      '02'
     else
       nil
     end
@@ -51,6 +53,8 @@ class Issue < Base
       '08'
     when '12'
       '11'
+    when '02'
+      '12'
     else
       nil
     end
@@ -65,11 +69,11 @@ class Issue < Base
   end
 
   def next_entry_slug
-    '2018-' + next_issue_month + '.html'
+    '2018-' + next_issue_month
   end
 
   def prev_entry_slug
-    '2018-' + prev_issue_month + '.html'
+    '2018-' + prev_issue_month
   end
 
   def stories

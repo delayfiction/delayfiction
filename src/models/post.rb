@@ -30,11 +30,11 @@ class Post < Base
   end
 
   def next_entry_slug
-    this_issue.id + '/' + next_entry.id + '.html'
+    this_issue.id + '/' + next_entry.id
   end
 
   def prev_entry_slug
-    this_issue.id + '/' + prev_entry.id + '.html'
+    this_issue.id + '/' + prev_entry.id
   end
 
   def render(name)
