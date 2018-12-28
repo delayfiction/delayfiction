@@ -112,6 +112,20 @@ a {
   color: #42b9f4;
 }
 
+.bio {
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px 0;
+  border-top: 1px #dddddd solid;
+  border-bottom: 1px #dddddd solid;
+  text-align: left;
+}
+
+.bio p {
+  margin: 0 auto;
+  width: 70%;
+}
+
 a:hover {
   color: #85ccf0;
 }
@@ -332,8 +346,26 @@ body {
   margin: 0 auto;
 }
 
+.monospace p {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.monospace br {
+  line-height: 40px;
+}
+
 .text p, .opener p {
   line-height: 28px;
+}
+
+.image-holder {
+  width: 100%;
+  text-align: center;
+}
+
+.embed {
+  max-width: 90%;
+  margin: 10px auto;
 }
 
 .section-break {
