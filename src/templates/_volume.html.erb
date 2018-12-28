@@ -4,7 +4,7 @@
     </div>
     <% @volume.issues.each do |issue|%>
       <div class="collection-issue">
-        <a href="<%= host + '/' + issue.id + '.html' %>">
+        <a href="<%= host + '/' + issue.id %>">
         <div class="header-image">
           <img src="<%= asset_loc + issue.art %>">
         </div>

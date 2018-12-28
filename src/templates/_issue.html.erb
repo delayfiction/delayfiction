@@ -4,7 +4,7 @@
       <img src="<%= asset_loc + art %>">
     </div>
     <% @issue.stories.each do |story|%>
-      <a href="<%= host + '/' + story.issue + '/' + story.id + '.html' %>">
+      <a href="<%= host + '/' + story.issue + '/' + story.id %>">
         <div class="post">
         <div class="banner">
           <h2 class="post-title"><%= story.title %></h1>

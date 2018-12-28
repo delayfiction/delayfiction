@@ -69,11 +69,11 @@ class Issue < Base
   end
 
   def next_entry_slug
-    '2018-' + next_issue_month + '.html'
+    '2018-' + next_issue_month
   end
 
   def prev_entry_slug
-    '2018-' + prev_issue_month + '.html'
+    '2018-' + prev_issue_month
   end
 
   def stories
