@@ -8,13 +8,13 @@ opener: 'An episode of Sesame Street first released in 1972 was banned and then 
 ---
 
 <div class="image-holder">
-<img src="/Users/andrewcrimer/Code/delayfiction/docs/assets/snuffy-1.png" class="embed">
+<img src="/assets/snuffy-1.png" class="embed">
 </div>
 
 An episode of Sesame Street first released in 1972 was banned and then later disappeared. It featured the actress Margaret Hamilton reprising her Wicked Witch of the West role, more than thirty years after the initial release of *The Wizard of Oz*. The lore says that the episode terrified anyone who watched it. Parents deluged Sesame Street with letters and calls complaining about the “disturbing” imagery, and Sesame Street, horrified by the outcry, promptly removed it from the airwaves. There is no record of what happened to the original film, though it seems likely destroyed. One vestige of the episode remains. It is a single still showing a noticeably aged Hamilton in her full Wicked Witch costume, with wig, warts, and green makeup, standing next to Oscar the Grouch. She looks at the camera with sad eyes and a slight frown.
 
 <div class="image-holder">
-<img src="/Users/andrewcrimer/Code/delayfiction/docs/assets/snuffy-2.png" class="embed">
+<img src="/assets/snuffy-2.png" class="embed">
 </div>
 
 It may be the still’s grainy quality, or that Hamilton was far older than her original depiction, but the image, to say nothing of the original episode itself, is unsettling. It exists somewhere on the outer rim of the internet. You can find it if you know how to look. 
@@ -212,13 +212,13 @@ She wore her silver hair in a ponytail and had high-set thin eyes and round chee
 Evelyn escorted me down a short hallway to a room in the corner of the house. “This is my office,” Evelyn said. It was large, with bookcases built into the walls on either end, and a large window covered with maroon drapes on the opposite side of the room. In the middle sat a chair, facing a video camera standing on a tripod a few feet away. To my right was an empty fireplace and above it a painting. The painting depicted a woman lying down on a daybed, asleep or dead, her head and arms draped off the edge. She wore a flowing white shawl, like a bedsheet. On her stomach sat a small, bronze-colored demon, his hand to his cheek, looking out in thought. 
 
 <div class="image-holder">
-<img src="/Users/andrewcrimer/Code/delayfiction/docs/assets/snuffy-3.png" class="embed">
+<img src="/assets/snuffy-3.png" class="embed">
 </div>
 
 Near her feet, a black horse head with white eyes peeked from behind a red curtain.
 
 <div class="image-holder">
-<img src="/Users/andrewcrimer/Code/delayfiction/docs/assets/snuffy-4.png" class="embed">
+<img src="/assets/snuffy-4.png" class="embed">
 </div>
 
 “The Nightmare,” Evelyn said. 
@@ -343,7 +343,7 @@ The video ends and the next starts up.
 </p>
 
 <div class="image-holder">
-<img src="/Users/andrewcrimer/Code/delayfiction/docs/assets/snuffy-5.png" class="embed">
+<img src="/assets/snuffy-5.png" class="embed">
 </div>
 
 The video ends and the next starts up.
