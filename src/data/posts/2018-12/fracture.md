@@ -38,7 +38,7 @@ She’s next to him. It must be her. It always is. That’s the pattern. Little 
 
 The catastrophe has arrived. Will Dada know, or notice, care, or worry. Whatever’s coming now is coming. His morning thoughts overwhelm his senses, then dreams overwhelm his thoughts, then the nothing overwhelms his dreams. His sinuses relax. He breathes again. There’s fog again. Time passes. Where is time from. Where does it go. 
 
-Descend the stairs. Dada does. Grasp rail, move forward foot, bend the knee, lower knee behind, slowly—slowly—body sinks. Foot touches riser, slowly—slowly—move forward slightly, slowly—slowly—, rest weight on foot out front, then stand erect on it, then lift rear foot, weight forward, slowly—slowly —,  bend, descend, and on and on, and down
+Descend the stairs. Dada does. Grasp rail, move forward foot, bend the knee, lower knee behind, slowly—slowly—body sinks. Foot touches riser, slowly—slowly—move forward slightly, slowly—slowly—, rest weight on foot out front, then stand erect on it, then lift rear foot, weight forward, slowly—slowly—,  bend, descend, and on and on, and down
 
 The power’s off. The lights are off. The heat is naught, no clanging from the pipes. Cold, he thinks, is but the lack of heat. He yearns for comfort from the clang, clang, clang below, within. To hear that clang. Such is desire. For now it’s silent. It is yearning unrequited. 
 
