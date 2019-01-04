@@ -38,7 +38,7 @@ She’s next to him. It must be her. It always is. That’s the pattern. Little 
 
 The catastrophe has arrived. Will Dada know, or notice, care, or worry. Whatever’s coming now is coming. His morning thoughts overwhelm his senses, then dreams overwhelm his thoughts, then the nothing overwhelms his dreams. His sinuses relax. He breathes again. There’s fog again. Time passes. Where is time from. Where does it go. 
 
-Descend the stairs. Dada does. Grasp rail, move forward foot, bend the knee, lower knee behind, slowly—slowly—body sinks. Foot touches riser, slowly—slowly—move forward slightly, slowly—slowly—, rest weight on foot out front, then stand erect on it, then lift rear foot, weight forward, slowly—slowly—,  bend, descend, and on and on, and down
+Descend the stairs. Dada does. Grasp rail, move forward foot, bend the knee, lower knee behind, slowly—slowly—body sinks. Foot touches riser, slowly—slowly—move forward slightly, slowly—slowly—, rest weight on foot out front, then stand erect on it, then lift rear foot, weight forward, slowly—slowly—,  bend, descend, and on and on, and down.
 
 The power’s off. The lights are off. The heat is naught, no clanging from the pipes. Cold, he thinks, is but the lack of heat. He yearns for comfort from the clang, clang, clang below, within. To hear that clang. Such is desire. For now it’s silent. It is yearning unrequited. 
 
@@ -46,13 +46,13 @@ Dada makes his coffee. Such is ritual. Fill the coffee pot with water. Filter, c
 
 He pauses between thoughts and nothing. Is that the dream. Snow falls outside. Unblemished snow. More snow than freezing rain. The wind has calmed. There are no birds. One wonders.
 
-Outside a man trudges down the unplowed street. The snow has hidden street and sidewalks, buried shrubs that line the street, the roots of trees that tear at sidewalks. Knee deep in snow, the man goes forward. He lifts one leg, plunges it before him deep in snow. Then shifts his weight ahead. Then lifts his leg behind. Then twists somewhat. Then plunges his read leg in front of him. Shifts his weight. Then steps again. And then again. He leaves a trail. It disappears, as wind-blown snow erases history. One wonders.
+Outside a man trudges down the unplowed street. The snow has hidden street and sidewalks, buried shrubs that line the street, the roots of trees that tear at sidewalks. Knee deep in snow, the man goes forward. He lifts one leg, plunges it before him deep in snow. Then shifts his weight ahead. Then lifts his leg behind. Then twists somewhat. Then plunges his rear leg in front of him. Shifts his weight. Then steps again. And then again. He leaves a trail. It disappears, as wind-blown snow erases history. One wonders.
 
 Dada dresses. There is work. A place to be. Work is warm. There are others. They will talk at work, ruminations, labor. Things will emerge from all the effort. Perhaps he dreams catastrophe will end, overwhelmed by economics.
 
-Dada pauses at the question of his shoes. Old ones. New ones. Leather ones. Clothe ones. Blue ones. Brown ones. Or even shoes at all. Boots. High cut. Low cut. Deck shoes. Sandals. Perhaps those pointy-toed Italian things he bought when he got married.
+Dada pauses at the question of his shoes. Old ones. New ones. Leather ones. Cloth ones. Blue ones. Brown ones. Or even shoes at all. Boots. High cut. Low cut. Deck shoes. Sandals. Perhaps those pointy-toed Italian things he bought when he got married.
 
-Dressed, his round black hat, his long black coat, his case, he steps outside. He plunges one leg before him into snow. Then the other, and shuts the door behind him, plunging his other leg in front, then pulling up the back. The routine; step, shift, pull, forward. Step, shift, pull, forward. He turns. Looks up. Above the bedroom windows are iced over. If she rises, when she rises, if she can rise, if she is warm, if she is there, if she has knowledge of descending stairs, if she can hold in heat in all this cold, if she has power for all the effort, and there is power for the pot, then coffee will reward her, and perhaps she will remember him, and dream of him.  One wonders. 
+Dressed, his round black hat, his long black coat, his case, he steps outside. He plunges one leg before him into snow. Then the other, and shuts the door behind him, plunging his other leg in front, then pulling up the back. The routine; step, shift, pull, forward. Step, shift, pull, forward. He turns. Looks up. Above the bedroom windows are iced over. If she rises, when she rises, if she can rise, if she is warm, if she is there, if she has knowledge of descending stairs, if she can hold in heat in all this cold, if she has power for all the effort, and there is power for the pot, then coffee will reward her, and perhaps she will remember him, and dream of him. One wonders. 
 
 Dada turns, plods forward. Pauses, and the trail behind him fills with snow. But he moves on into virginity. Unblemished snow. The wind picks up and snow blows across a crust of snow, erasing all direction. Wind and snow, more freezing rain to come, the end of landscape, the end of dreams of warmth and comfort. Little heater.  He remembers. Dreams of her. 
 
@@ -66,7 +66,7 @@ Days like this. How things unfold.
 
 <div class="pull">
 <p>
-Wrapped in a heavy coat, a hat, a scarf, burdened with his brief, Dada travels through the snow, approaching his place of work. Before he arrives a yellow-slickered clown appears and points. A frozen body hangs inside some shrubs. A form familiar. The yellow slickered clown will disappear and leave Dada alone with his catastrophe.
+Wrapped in a heavy coat, a hat, a scarf, burdened with his brief, Dada travels through the snow, approaching his place of work. Before he arrives a yellow-slickered clown appears and points. A frozen body hangs inside some shrubs. A form familiar. The yellow-slickered clown will disappear and leave Dada alone with his catastrophe.
 </p>
 </div>
 
@@ -102,7 +102,7 @@ But Robbie’s gone. The door behind him closes with a thump. Snow slides from t
 
 This object is oblong. Upright. Silent. He has arms. Dressed in a long dark coat. His legs bend where he has knees. Dada parts the shrubs, brushes snow off the head, the shoulders. Ice hangs from the dead man’s nose.
 
- Dada knows him. Like one might know a ghost. A dream. Know one’s own reflection in a mirror.
+Dada knows him. Like one might know a ghost. A dream. Know one’s own reflection in a mirror.
 
 Suicide. Or murder. Intent or accident. Indeed. Or just a force of nature, now here a prisoner of physics. Dada backs away like some old lobster from the shrubs.
 
@@ -110,7 +110,7 @@ Do not go in. Do not touch that. Do not make tracks. Do not get close.
 
 The air is cold. The ground is frozen. Dada stamps his feet, but soon he wants to sit. He calls in and reports the travesty. The bench is cold concrete. The silence is oppressive. Waiting is oppressive. Grey is everywhere. Not far off, sound of water. But just in time the sky breaks free, and blue comes forth, as deep and rich as it can only be in winter. 
 
-A woman in a red coat passes by, looks. She walks her dog. Then she walks on. But then looks back long and hard. The looks again. She has stopped to look much closer. She wears a long red, red coat, which once matched her red, red shoes, but now her shoes are wet, and are darker, made in such a way and of such a stuff that darkens when it is wet, so her shoes are darker than her red, red dress. Her feet must now be cold. One wonders. 
+A woman in a red coat passes by, looks. She walks her dog. Then she walks on. But then looks back long and hard. Then looks again. She has stopped to look much closer. She wears a long red, red coat, which once matched her red, red shoes, but now her shoes are wet, and are darker, made in such a way and of such a stuff that darkens when it is wet, so her shoes are darker than her red, red dress. Her feet must now be cold. One wonders. 
 
 The dog is on a leash. The dog tugs forward, then stops and barks at Dada, at the oblong in the shrubs, then leaps on its leash, forward once again, into today’s virginity. 
 
@@ -172,7 +172,7 @@ The waitress also has big breasts. Cluck is partial to her. She pities him. One 
 
 “What kind of pie you got today?” 
 
-“All kinds’” she says. 
+“All kinds,” she says. 
 
 She smiles, then names the pies, the same every day. 
 
@@ -180,7 +180,7 @@ She smiles, then names the pies, the same every day.
 
 She halves the price but brings a whole slice. As she does every day. 
 
-“Dead,” Dada says. “Hanging there. Like it was me. Looked like just me. I felt it was me. You know?”
+“Dead,” Dada says. “Hanging there. Like it was me. Looked just like me. I felt it was me. You know?”
 
 Putz, a clumsy bear, holds a half-eaten weenie on his fork. 
 
