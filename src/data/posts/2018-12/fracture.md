@@ -14,7 +14,7 @@ opener: 'Dada wakes and finds the world has stopped.'
 
 A sudden, unexpected, deadly kind of silence wakens Dada. Zero at the bone. Silence fills the room. Dada pulls the sheet up to his nose, stares at the ceiling. Frost crawls up the window. Outside it is gray. A winter morning. At early dawn.
 
-The power’s off. That one thing. 
+The power’s off. That one thing. Ben‘s butt smells fucking **terrible**.
 
 He toggles the switch; the lamp doesn’t work. He tries again; it fails again. The overhead isn’t working. The clock by his bed has stopped. He no longer hears the fridge on the floor below. The furnace in the basement, the clang of steam pipes, they have fallen silent.
 
