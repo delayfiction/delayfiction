@@ -17,11 +17,7 @@ Most days it’s slow here. It’s good because you’ve got time to do your own
 
 My way is to put the milk cartons in the fridge with the handles facing out the way. The others put them with the handles facing to the side which doesn’t make sense and annoys me and I turn them round ninety degrees when I come on shift even though I don’t really care. My way is not to empty the bins until they’re full which the boss doesn’t like. She doesn’t like me giving people extra food either.
 
-<<<<<<< HEAD
 She has a seething step when she walks in. To tap at the till or drop something in the mouth of the bin. Her gaze goes round the edges of the room like a microwave tray and gives a ding when she finds something to shout about. When she doesn’t find something she makes something up. You feel the crawl of customers’ eyes on your back and shoulders while she shouts. Sometimes she shouts about Steve taking too many cigarette breaks and I want to say it’s not actually a problem but I don’t.
-=======
-She has a seething step when she walks in. To tap at the till or drop something in the mouth of the bin. Her gaze goes round the edges of the room like a microwave tray and gives a ding when she finds something to shout about. When she doesn’t find something she makes something up. You feel the crawl of customers” eyes on your back and shoulders while she shouts. Sometimes she shouts about Steve taking too many cigarette breaks and I want to say it’s not actually a problem but I don’t.
->>>>>>> 832998f48e1fd99cbd3cd302a776472e37bad659
 
 She gets to control the TV. She puts on royal weddings and people being arrested for things. Money saving advice and old couples buying houses in Spain. News and quiz shows with violent coloured desks. When there’s sport she turns the music down and the TV sound up. It rubs with the fridge sounds worse than a plastic wrapper.
 
