@@ -6,6 +6,7 @@ require_relative 'post.rb'
 Base.set_source_dir(File.join(Dir.pwd, 'src'))
 
 SitemapGenerator::Sitemap.default_host = 'https://delayfiction.org'
+SitemapGenerator::Sitemap.public_path = 'docs/'
 SitemapGenerator::Sitemap.create do
     add '/', :changefreq => 'monthly', :priority => 0.9
     add '/submit', :changefreq => 'monthly'
