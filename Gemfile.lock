@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    builder (3.2.3)
     psych (3.0.2)
     redcarpet (3.4.0)
     sitemap_generator (6.0.2)

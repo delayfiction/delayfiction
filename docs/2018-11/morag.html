@@ -50,6 +50,7 @@
     
       <script type="application/ld+json">
         { "@context": "http://www.schema.org",
+        "@graph": [{
         "@type": "CreativeWork",
         "publisher": {
         "@type": "Organization",
@@ -63,7 +64,26 @@
         "description": "I’m not allowed to eat the food at work.",
         "url": "https://delayfiction.org/2018-11/morag",
         "datePublished": "2018-11-01"
-        }
+        },{
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Delay Fiction",
+          "item": "https://delayfiction.org"
+          },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "2018-11",
+          "item": "https://delayfiction.org/2018-11"
+          },{
+           "@type": "ListItem",
+          "position": 3,
+          "name": "Morag",
+          "item": "https://delayfiction.org/2018-11/morag"
+          }]
+         }]
+         }
       </script>
     
   </head>
