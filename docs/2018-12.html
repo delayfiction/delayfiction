@@ -16,22 +16,26 @@
     <link rel="stylesheet" type="text/css" href="https://delayfiction.org/assets/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara|Cutive+Mono" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      <link rel="canonical" href="https://delayfiction.org/2018-12">
+    
     <script>
       window.onscroll = showScrolledNav;
       function showScrolledNav() {
-        var pos = document.documentElement.scrollTop;
-        if (pos >= 220) {
-          document.getElementById('nav').classList.remove('off');
-          document.getElementById('nav').classList.add('on');
-          document.getElementById('spacer').classList.remove('off');
-          document.getElementById('spacer').classList.add('on');
-        }
-        else if (pos < 220) {
-          document.getElementById('nav').classList.remove('on');
-          document.getElementById('nav').classList.add('off');
-          document.getElementById('spacer').classList.remove('on');
-          document.getElementById('spacer').classList.add('off');
-        }
+      var pos = document.documentElement.scrollTop;
+      if (pos >= 220) {
+      document.getElementById('nav').classList.remove('off');
+      document.getElementById('nav').classList.add('on');
+      document.getElementById('spacer').classList.remove('off');
+      document.getElementById('spacer').classList.add('on');
+      }
+      else if (pos < 220) {
+      document.getElementById('nav').classList.remove('on');
+      document.getElementById('nav').classList.add('off');
+      document.getElementById('spacer').classList.remove('on');
+      document.getElementById('spacer').classList.add('off');
+      }
       };
     </script>
     <meta name="og:type" content="article">

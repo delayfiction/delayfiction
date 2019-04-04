@@ -12,8 +12,11 @@ class Post < Base
     metadata.has_key? 'author'
   end
 
+  def issue_id
+    metadata['issue']
+  end
+
   def this_issue
-    issue_id = metadata['issue']
     Issue.find(File.join(@@source_dir, 'data', 'issues', (issue_id + '.md')))
   end
 

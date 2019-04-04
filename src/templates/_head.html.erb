@@ -18,6 +18,14 @@
     <link rel="stylesheet" type="text/css" href="<%= asset_loc + '/styles.css' %>">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Hind+Vadodaraodara|Cutive+Mono" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <% if @post %>
+      <link rel="canonical" href="<%= 'https://delayfiction.org/' + @post.issue_id + '/' + @post.id %>">
+    <% elsif @issue %>
+      <link rel="canonical" href="<%= 'https://delayfiction.org/' + @issue.id %>">
+    <% elsif @page %>
+      <link rel="canonical" href="<%= 'https://delayfiction.org/' + @page.id %>">
+    <% end %>
     <script>
       window.onscroll = showScrolledNav;
       function showScrolledNav() {
