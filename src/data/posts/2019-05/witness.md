@@ -106,7 +106,7 @@ He listened to the holy men sing:
 <div class="pull-short">
 *My beloved has returned.*<br>
 *Allah has united us.*
-<div>
+</div>
 
 And the supplicants moved their heads to the beat of the dhol. Some came with boxes of sweets, chicken, and goats covered with henna;others came with garlands of hundreds of rupee notes, a whole year’s income. Anything to get their prayers heard. The maulvi sat and prayed for two long weeks, not wanting to return to the comfort of his wife until his own prayer was acknowledged.
 
