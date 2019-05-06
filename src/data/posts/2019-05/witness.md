@@ -2,7 +2,7 @@
 issue: 2019-05
 author: Anniqua Rana
 title: 'Witness'
-tag: short fiction
+tag: novel excerpt
 issue_order: 2
 opener: 'We, the flies, were witness three times.'
 ---
@@ -49,7 +49,8 @@ We, the flies, witness to Tara’s death, protected Shahida, her daughter, until
 
 The dawn sunlight reflected in the dead mother’s eyes, searching for the song of lost love.
 
-Love will survive, but I will drown.
+*Love will survive, but I will drown.*
+
 It came from a radio hanging from the handle of the milkman’s bicycle. The unoiled bike’s squeals competed with the blaring music. The bicycle was barely balanced between two large milk cans that wobbled as the milkman tried to avoid the last of the night’s hyenas crossing the road and disappearing into the cane fields.
 
 On the road that Tara had walked the night before, two figures traveled in opposite directions. The milkman, on his bicycle, rode toward the village. The maulvi, after making the call for the early-morning prayers, was walking hurriedly toward the main road. He would take the bus to the shrine. The morning sun shone directly into the maulvi’s eyes, blinding him in the moment when he turned the corner to face the milkman.
@@ -74,9 +75,10 @@ The sun lifted itself from behind the mist-laden canal just enough for both of t
 We, the flies, disentangled ourselves from the bodies and disappeared behind the bushes.
 Both men looked disbelievingly at what lay before them: Tara dead, and her baby still sucking at her mother, while we protected them both.
 
-For that moment, the milkman forgot his pain and cussed as he exulted in what he saw:“Your mother—it’s a miracle! The baby was born of a dead woman.”
+For that moment, the milkman forgot his pain and cussed as he exulted in what he saw: “Your mother—it’s a miracle! The baby was born of a dead woman.”
 
-The maulvi, seeing the truth of what lay before him, shouted back,“Son of an owl! Run to the village and call for help. Tell Bibi Saffiya that Tara is dead and the baby is alive! Go now!”
+The maulvi, seeing the truth of what lay before him, shouted back, “Son of an owl! Run to the village and call for help. Tell Bibi Saffiya that Tara is dead and the baby is alive! Go now!”
+
 The milkman nearly rolled down the embankment and limped as quickly as he could in the direction of the village.
 
 The maulvi sat down next to Tara and placed his hand on her face. His body shuddered with mournful, soundless sobs.
@@ -92,6 +94,7 @@ To Zakia, the maulvi said, “It’s the will of Allah.”
 After that, the maulvi’s mother tried to find him another wife. But each time she mentioned it, he looked at her in disgust, and, knowing her eldest son, she backed off.
 
 Then Zakia, broken, suggested another wife, too, and he threw the dinner tray across the room, not caring that the aloo baingan splattered everywhere. He left and didn’t return for two weeks.
+
 Zakia cleaned the bits of potato and eggplant strewn all over the floor after he left, but the stain remained on the wall and she lay staring at it in the afternoons, somewhere between sleep and wakefulness. If she looked at it from a distance, it looked like a mustache, but if she looked more closely, it looked like the name of Allah. It even had the small connector on top, which in the loneliness of the afternoon was a stronger message that she was not alone. A more powerful being was giving her peace, telling her to stay silent during this ordeal. To keep praying five times a day, and then to add more time during each prayer, and then to wake up before the morning prayer to pray before the prayers of others could be heard.
 
 For two weeks, Zakia prayed for her husband to return, and she made a deal that if he returned, she would stay silent and would not ask for more.
@@ -101,7 +104,7 @@ For those two weeks, we witnessed the maulvi sitting at the shrine, praying for 
 He listened to the holy men sing:
 
 <div class="pull-short">
-*My beloved has returned.*
+*My beloved has returned.*<br>
 *Allah has united us.*
 <div>
 
@@ -109,7 +112,7 @@ And the supplicants moved their heads to the beat of the dhol. Some came with bo
 
 Now, miracle of miracles, his prayers from those twenty years earlier had been answered that morning. With both hands, he picked up the baby. Covered with afterbirth, she was still connected to Tara, and he held her close to his heart. He dipped his right hand in the canal and very gently wiped her face. He took his turban off his head with the same damp hand and struggled to wrap it around the baby. He could see her heart pumping in her tiny body. He would make sure she survived.
 
-Enraptured, he spoke to Shahida.“You’re late, but you’re here. You should have told us you were coming. I would have done some preparation. I’ll get you a doll, a plastic one from the stalls at the shrine, one that looks just like you.”
+Enraptured, he spoke to Shahida. “You’re late, but you’re here. You should have told us you were coming. I would have done some preparation. I’ll get you a doll, a plastic one from the stalls at the shrine, one that looks just like you.”
 
 She no longer called to the disappearing star as he continued to talk to her.
 
