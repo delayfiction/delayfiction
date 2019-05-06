@@ -13,7 +13,6 @@ class Issue < Base
     'none'
   end
 
-
   def has_title
     metadata.has_key? 'title'
   end
@@ -24,6 +23,10 @@ class Issue < Base
 
   def month
     id[-2..-1]
+  end
+
+  def volume
+    id[0..4]
   end
 
   def next_issue_month
@@ -61,19 +64,19 @@ class Issue < Base
   end
 
   def next_entry
-    Issue.find(File.join(@@source_dir, 'data', 'issues', ('2018-' + next_issue_month + '.md')))
+    Issue.find(File.join(@@source_dir, 'data', 'issues', (volume + next_issue_month + '.md')))
   end
 
   def prev_entry
-    Issue.find(File.join(@@source_dir, 'data', 'issues', ('2018-' + prev_issue_month + '.md')))
+    Issue.find(File.join(@@source_dir, 'data', 'issues', (volume + prev_issue_month + '.md')))
   end
 
   def next_entry_slug
-    '2018-' + next_issue_month
+    volume + next_issue_month
   end
 
   def prev_entry_slug
-    '2018-' + prev_issue_month
+    volume + prev_issue_month
   end
 
   def stories
