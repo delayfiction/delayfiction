@@ -18,11 +18,12 @@ ARGV[0] == "local" ?
 `cp -r #{File.join Base.source_dir, 'assets', '.'} #{File.join Base.dest_dir, 'assets'}`
 `cp -r #{File.join Base.source_dir, 'auto_assets', '.'} #{File.join Base.dest_dir}`
 
-volume = Volume.find(File.join(Base.source_dir, 'data/volumes/2018.md'))
-File.write(
-  File.join(Base.dest_dir, (volume.id + '.html')),
-  volume.render('show-volume')
-)
+Volume.all(File.join(Base.source_dir, 'data', 'volumes')).each do |volume|
+  File.write(
+    File.join(Base.dest_dir, (volume.id + '.html')),
+    volume.render('show-volume')
+  )
+end
 
 Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
   #make dir for issue
