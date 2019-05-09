@@ -104,8 +104,8 @@ For those two weeks, we witnessed the maulvi sitting at the shrine, praying for 
 He listened to the holy men sing:
 
 <div class="pull-short">
-<em>My beloved has returned.</em><br>
-<em>Allah has united us.</em>
+<p><em>My beloved has returned.</em><br>
+<em>Allah has united us.</em></p>
 </div>
 
 And the supplicants moved their heads to the beat of the dhol. Some came with boxes of sweets, chicken, and goats covered with henna;others came with garlands of hundreds of rupee notes, a whole year’s income. Anything to get their prayers heard. The maulvi sat and prayed for two long weeks, not wanting to return to the comfort of his wife until his own prayer was acknowledged.
@@ -119,3 +119,8 @@ She no longer called to the disappearing star as he continued to talk to her.
 “I’ll cook two cauldrons of goat meat for the whole village. I’ll announce to everyone that my princess has arrived. Your mother is waiting for you at home. You’re a sly one, aren’t you? Coming without an announcement.”
 
 The baby started to whimper again as they sat waiting for help to arrive. Her tiny hand reached out to us, asking us to continue to protect her, as we had done all that night. We were assured she would live.
+
+  <div class="section-break"><hr></div>
+
+  *This story is an extract from the novel* [Wild Boar in the Cane Field](https://shewritespress.com/product/wild-boar-cane-field/), *to be published September 2019 by She Writes Press.*
+
