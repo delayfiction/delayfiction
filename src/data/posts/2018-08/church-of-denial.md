@@ -1,5 +1,5 @@
 ---
-issue: 2018-08
+issue: '2018-08'
 author: Rani Deigh Crowe
 tag: flash fiction
 title: Church of Denial

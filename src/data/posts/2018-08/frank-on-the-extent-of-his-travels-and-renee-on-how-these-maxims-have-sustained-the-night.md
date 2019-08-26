@@ -1,5 +1,5 @@
 ---
-issue: 2018-08
+issue: '2018-08'
 author: Shelly Alminas
 title: 'Frank, on the Extent of His Travels; and Renee, on How These Maxims Have Sustained the Night'
 tag: short fiction

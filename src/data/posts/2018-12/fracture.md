@@ -1,5 +1,5 @@
 ---
-issue: 2018-12
+issue: '2018-12'
 author: Ron Pullins
 title: 'Fracture'
 tag: short fiction

@@ -1,5 +1,5 @@
 ---
-issue: 2019-05
+issue: '2019-05'
 author: Catherine Day 
 title: 'A Stalked Animal'
 tag: short fiction
