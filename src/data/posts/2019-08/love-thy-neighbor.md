@@ -1,4 +1,4 @@
-﻿---
+---
 issue: '2019-08'
 author: Aimee Griffin
 title: 'Love Thy Neighbor'
@@ -6,7 +6,6 @@ tag: short fiction
 issue_order: 2
 opener: 'My face is covered in freckles for the first time since I was a little girl.'
 ---
-
 My face is covered in freckles for the first time since I was a little girl. They’re the product of an island vacation, paid for by Robert, that I spent sun bathing and running up an excessive bar tab. Robert hates the freckles and says they make me look immature. I suppose a man who still has the face of an eleven year old would have some sort of authority on that. Most people would call Robert my boyfriend. 
 
 Sometimes, my coworkers and I pretend we don’t just tolerate one another, and we go out for drinks. One night, I offer to buy the first round for our table because every man there looked at my ass when I walked in, and I liked it. Robert tried to loop his arm around my waist after that. I evaded. The bartender smiled as I ticked off my drink order.

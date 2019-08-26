@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require 'pry'
 require_relative 'models/base.rb'
 require_relative 'models/issue.rb'
 require_relative 'models/post.rb'
@@ -30,6 +31,9 @@ Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
   directory = File.join(Base.dest_dir, issue.id)
   FileUtils.mkdir(directory) unless Dir.exist?(directory)
 
+  puts "issue: "
+  puts issue.id
+
   #write issue
   File.write(
     File.join(directory + '.html'),
@@ -38,6 +42,9 @@ Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
 
   #write stories
   issue.stories.each do |story|
+    puts "story: "
+    puts story.id
+
     File.write(
       File.join(directory, (story.id + '.html')),
       story.render('show-post')

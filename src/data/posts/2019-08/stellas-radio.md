@@ -1,4 +1,4 @@
-﻿---
+---
 issue: '2019-08'
 author: Michael Mark
 title: 'Stella’s Radio'

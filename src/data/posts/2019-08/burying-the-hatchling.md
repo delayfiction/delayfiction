@@ -1,4 +1,4 @@
-﻿---
+---
 issue: '2019-08'
 author: 'K.E. Knox'
 title: 'Burying the Hatchling'
