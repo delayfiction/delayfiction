@@ -8,7 +8,7 @@ run `src/script` to build with the expectation of publication. add `local` to bu
 
 to publish, push it to the master branch on github. we're not as sophisticated operationally as our sophisticated literary taste would lead you to believe.
 
-#t stories
+## stories
 
 add stories as markdown files in the directory `src/data/posts/<the-issue>/`. stories require a few metadata fields to work right:
 
