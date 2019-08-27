@@ -1,5 +1,5 @@
 ---
-issue: 2019-05
+issue: '2019-05'
 author: Anniqua Rana
 title: 'Witness'
 tag: novel excerpt

@@ -1,5 +1,5 @@
 ---
-issue: 2019-05
+issue: '2019-05'
 author: Stefan Kiesbye 
 title: 'Paper House'
 tag: short fiction

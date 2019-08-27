@@ -1,5 +1,5 @@
 ---
-issue: 2018-11
+issue: '2018-11'
 author: Sasha Thanisch
 title: 'Morag'
 tag: short fiction

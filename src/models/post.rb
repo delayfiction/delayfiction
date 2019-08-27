@@ -21,8 +21,7 @@ class Post < Base
   end
 
   def next_entry
-    next_post_ordinal = issue_order
-    next_entry = this_issue.stories[next_post_ordinal]
+    this_issue.stories[issue_order] if issue_order
   end
 
   def prev_entry

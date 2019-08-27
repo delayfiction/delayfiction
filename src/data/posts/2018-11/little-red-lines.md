@@ -1,5 +1,5 @@
 ---
-issue: 2018-11
+issue: '2018-11'
 author: Daniel Uncapher
 title: 'Little Red Lines'
 tag: short fiction

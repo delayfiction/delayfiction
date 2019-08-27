@@ -1,5 +1,5 @@
 ---
-issue: 2018-12
+issue: '2018-12'
 author: Phil Shreck
 title: 'Snuffy’s Parents Get a Divorce'
 tag: short fiction

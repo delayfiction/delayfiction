@@ -1,5 +1,5 @@
 ---
-issue: 2018-11
+issue: '2018-11'
 author: Leah Velez
 title: 'Sink Lady'
 tag: short fiction

@@ -1,5 +1,5 @@
 ---
-issue: 2018-08
+issue: '2018-08'
 author: Denise Coville
 tag: short fiction
 title: 'Fifteen Years of Hamster Guilt'

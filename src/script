@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require 'pry'
 require_relative 'models/base.rb'
 require_relative 'models/issue.rb'
 require_relative 'models/post.rb'
@@ -18,15 +19,16 @@ ARGV[0] == "local" ?
 `cp -r #{File.join Base.source_dir, 'assets', '.'} #{File.join Base.dest_dir, 'assets'}`
 `cp -r #{File.join Base.source_dir, 'auto_assets', '.'} #{File.join Base.dest_dir}`
 
-volume = Volume.find(File.join(Base.source_dir, 'data/volumes/2018.md'))
-File.write(
-  File.join(Base.dest_dir, (volume.id + '.html')),
-  volume.render('show-volume')
-)
+Volume.all(File.join(Base.source_dir, 'data', 'volumes')).each do |volume|
+  File.write(
+    File.join(Base.dest_dir, (volume.id + '.html')),
+    volume.render('show-volume')
+  )
+end
 
 Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
   #make dir for issue
-  directory = File.join Base.dest_dir, issue.id
+  directory = File.join(Base.dest_dir, issue.id)
   FileUtils.mkdir(directory) unless Dir.exist?(directory)
 
   #write issue
@@ -37,6 +39,7 @@ Issue.all(File.join(Base.source_dir, 'data', 'issues')).each do |issue|
 
   #write stories
   issue.stories.each do |story|
+
     File.write(
       File.join(directory, (story.id + '.html')),
       story.render('show-post')
