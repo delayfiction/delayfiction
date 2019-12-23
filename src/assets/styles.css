@@ -112,6 +112,10 @@ a {
   color: #42b9f4;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .bio {
   width: 100%;
   margin: 10px auto;
