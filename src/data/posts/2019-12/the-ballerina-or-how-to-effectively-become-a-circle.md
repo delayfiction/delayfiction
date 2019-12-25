@@ -8,7 +8,7 @@ opener: 'It was noon when she prepared her lunch.'
 ---
 
 
-It was noon when she prepared her lunch. She loved cereal with the passion of a child who has just discovered that sweet things *can* come in boxes. She could stomach it easier than other foods that left too many flavor imprints in her mouth. Things like soup with all those mushy vegetables stewing in salty water, each unbalanced bite, an attack. She had no memory of ever eating soup though she knew how to imagine it working its way into her stomach. Even though none of her memories never took shape, she craved recollection, though the act of remembering discomforted her, as being unwillingly privy to the emotional sensations of strangers often does. She hated words for their feeling outlines but she loved the feeling of the word fuzzy on her lips. 
+**It was noon when she prepared her lunch.** She loved cereal with the passion of a child who has just discovered that sweet things *can* come in boxes. She could stomach it easier than other foods that left too many flavor imprints in her mouth. Things like soup with all those mushy vegetables stewing in salty water, each unbalanced bite, an attack. She had no memory of ever eating soup though she knew how to imagine it working its way into her stomach. Even though none of her memories never took shape, she craved recollection, though the act of remembering discomforted her, as being unwillingly privy to the emotional sensations of strangers often does. She hated words for their feeling outlines but she loved the feeling of the word fuzzy on her lips. 
 
 F-U-Z-Z-Y. Unexpected word. Yes, but hateful? This word-hate made reading seem distant and strange, even though she enjoyed getting lost in a book once in a while, especially during the winter months. Someone once told her the act of reading used the body to store words and the memories of words– what a beautiful thing to say about dead trees, she thought as she watched his mouth speak. His mouth, a circle. All mouths, circles. Maybe dancing could have been that for her– storing the memories of movement. When she entered the College’s dance academy, they told her that dancing is the body’s response to the feeling of music, or that’s at least what she thought they said as her body began taunting her with the invisible key that she assumed led to whatever version of freedom a word like freedom could encompass. If words didn’t exist then maybe bodies could be a thing of the past. 
 
@@ -22,7 +22,7 @@ Years ago, when she still lived with her parents, she had a reoccurring nightmar
 
 *I’m not thirsty.*
 
-*Doesn’t matter if you’re thirty. Drink. It’ll help.*
+*Doesn’t matter if you’re thirsty. Drink. It’ll help.*
 
 *But…*
 

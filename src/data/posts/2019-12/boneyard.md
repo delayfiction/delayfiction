@@ -9,7 +9,7 @@ opener: 'The mid-winter sun hanging high, Joshua sat in Hank’s big hemp chair.
 
 *Editors' note: this story contains descriptions of suicides.*
 
-The mid-winter sun hanging high, Joshua sat in Hank’s big hemp chair. The one in which Hank read the 1920 Doubleday Sun Dial editions of Joseph Conrad. The one with the wide white valley view. The one near a chestnut vertical support beam where an Eli Whitney revolver would hang on a copper nail by a sign written in buckthorn ink warning it was loaded. 
+**The mid-winter sun hanging high, Joshua sat in Hank’s big hemp chair.** The one in which Hank read the 1920 Doubleday Sun Dial editions of Joseph Conrad. The one with the wide white valley view. The one near a chestnut vertical support beam where an Eli Whitney revolver would hang on a copper nail by a sign written in buckthorn ink warning it was loaded. 
 
 He didn’t know where Hank went.
 
@@ -79,11 +79,11 @@ The judge theorized why so many of them committed suicide: they didn’t desire 
 
 Good old Hank. True to his boneyard, bringing to its threshold the next sacrifice in the bloodline with the acumen to perceive. A self-aware sacrifice is more valuable. 
 
-*O! Kiss me. *
+*O! Kiss me.*
 
 Not spoken, heard despite that, from the lily, there in the space of the bones. A kiss to seal, to ardor intensify, to move the passion, to enliven. A kiss. 
 
-*Kiss me, O! OoooOoOooo! *
+*Kiss me, O! OoooOoOooo!*
 
 
 <div class="align-right">
