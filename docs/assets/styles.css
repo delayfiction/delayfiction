@@ -68,6 +68,31 @@ h3 {
   -webkit-margin-after: 0em;
 }
 
+h4 {
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #303030;
+  font-size: 20px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.relaunch-banner {
+  background-color: #42b9f4;
+  padding: 1em 0 0.2em 0;
+  width: 100%;
+}
+
+.relaunch-banner h4 {
+  color: #fff;
+}
+
+.relaunch-banner h4 a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 p, li {
   font-family: 'Hind Vadodara', sans-serif;
   font-weight: 400;
