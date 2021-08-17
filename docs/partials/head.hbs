@@ -38,11 +38,11 @@
   <meta name="og:type" content="article">
   <meta name="og:title" content="{{#if title}}{{ title }} || delay fiction{{ else }}delay fiction{{/if}}">
   <meta name="og:description" content="{{#if opener}}{{ opener }}{{ else }}Delay is a venue for good short fiction.{{/if}}">
-  <meta name="og:image" content="https://delayfiction.org/{{ artFor this }}">
+  <meta name="og:image" content="https://delayfiction.org{{ artFor this }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{#if title}}{{ title }} || delay fiction{{ else }}delay fiction{{/if}}">
   <meta name="twitter:description" content="{{#if opener}}{{ opener }}{{ else }}Delay is a venue for good short fiction.{{/if}}">
-  <meta name="twitter:image" content="https://delayfiction.org/{{ artFor this }}">
+  <meta name="twitter:image" content="https://delayfiction.org{{ artFor this }}">
 
   {{#if ( isPost this ) }}
       <script type="application/ld+json">
@@ -57,7 +57,7 @@
         "sourceOrganization": "Delay Fiction",
         "author": "{{ author }}",
         "headline": "{{ title }}",
-        "image": "https://delayfiction.org/{{ artFor this }}",
+        "image": "https://delayfiction.org{{ artFor this }}",
         "description": "{{ opener }}",
         "url": "https://delayfiction.org/{{ nakedPath path }}",
         "datePublished": "a date"
@@ -104,7 +104,7 @@
         "logo": "https://delayfiction.org/delay-fiction.png"
         },
         "headline": "{{ title }}",
-        "image": "https://delayfiction.org/{{ artFor this }}",
+        "image": "https://delayfiction.org{{ artFor this }}",
         "description": "The {{ title }} issue of Delay Fiction.",
         "url": "https://delayfiction.org/{{ nakedPath path }}",
         "datePublished": "{{ date }}"
@@ -146,7 +146,7 @@
         "logo": "https://delayfiction.org/delay-fiction.png"
         },
         "headline": "{{ title }}",
-        "image": "https://delayfiction.org/{{ artFor this }}",
+        "image": "https://delayfiction.org{{ artFor this }}",
         "description": "The {{ title }} issue of Delay Fiction.",
         "url": "https://delayfiction.org/{{ nakedPath path }}",
         "datePublished": "{{ date }}"
