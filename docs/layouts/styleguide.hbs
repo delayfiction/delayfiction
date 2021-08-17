@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  {{> head }}
+  <body>
+    {{> header }}
+    <div class="styles">
+      <h1>
+        <span class="word">delay</span><span>f</span><span>i</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span>
+        <small>craft en route</small>
+      </h1>
+      <h2>
+        <span>a</span><span>u</span><span>g</span><span>:</span><span>1</span><span>9</span>
+      </h2>
+      <span class="tag">short fiction</span>
+      <h3>this is the name of the sotory</h3>
+      <span class="author">Fart Stevens</span>
+      <div class="body">
+        {{{ contents }}}
+      </div>
+    </div>
+  </body>
+  <script>
+  var was = window.scrollY;
+  var nav = document.getElementById('primary-header');
+
+  if (was > 90) { nav.className = 'scrolled'; };
+
+  window.addEventListener('scroll', function(e) {
+    var is = window.scrollY;
+    if (is > 90 && was <= 90) {
+      nav.className = 'scrolled';
+    } else if (was > 90 && is <= 90) {
+      nav.className = '';
+    };
+
+    was = window.scrollY;
+  });
+  </script>
+</html>

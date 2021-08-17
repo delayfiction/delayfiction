@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  {{> head }}
+  <body>
+    {{> header }}
+
+    {{#> main pageTitle=(formattedDate date "MMM:YY") }}
+      {{> story }}
+    {{/main}}
+
+    {{> footer
+      nextPath=next.path
+      nextText=next.title
+      previousPath=previous.path
+      previousText=previous.title
+    }}
+  </body>
+</html>

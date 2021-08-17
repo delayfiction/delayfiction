@@ -1,0 +1,29 @@
+<footer class="footer">
+  <img src="{{ artFor this }}"/>
+
+  <div class="links">
+    {{#if previousPath}}
+      <a class="previous" href="/{{ previousPath }}">
+        {{#if previousText }}
+          previous: {{ previousText }}
+        {{ else }}
+          previous
+        {{/if }}
+      </a>
+    {{/if}}
+
+    <div class="spacer"></div>
+
+    {{#if nextPath}}
+      <a class="next" href="/{{ nextPath }}">
+        {{#if nextText }}
+          next: {{ nextText }}
+        {{ else }}
+          next
+        {{/if }}
+      </a>
+    {{/if}}
+  </div>
+
+  <div class="copyright">© Delay Fiction {{#if author}} & {{ author }} {{/if}} </div>
+<footer>

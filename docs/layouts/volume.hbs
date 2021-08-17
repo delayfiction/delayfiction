@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  {{> head }}
+  <body>
+    {{> header }}
+
+    {{#> main pageTitle=title }}
+      {{#each (lookup collections title)}}
+        {{> issue-list-item }}
+      {{/each}}
+    {{/main}}
+
+    {{> footer
+      nextPath=next.path
+      nextText=next.title
+      previousPath=previous.path
+      previousText=previous.title
+    }}
+  </body>
+</html>
